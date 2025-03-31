@@ -128,7 +128,6 @@ header p {
 }
 
 .category-card {
-    aspect-ratio: 1/1; /* Square cards */
     background: white;
     border-radius: var(--border-radius);
     padding: 25px 20px;
@@ -139,8 +138,6 @@ header p {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .category-card::before {
@@ -262,7 +259,6 @@ header p {
     padding: 20px;
     transition: var(--transition);
     border-left: 4px solid var(--primary-color);
-    
 }
 
 .word-item:hover {
