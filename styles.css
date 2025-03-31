@@ -29,10 +29,12 @@ body {
     background-color: #f5f7ff;
     color: var(--dark-color);
     line-height: 1.6;
+    min-height: 100vh;
 }
 
 .container {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -62,7 +64,7 @@ header::before {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
     margin-bottom: 10px;
     position: relative;
     z-index: 1;
@@ -73,7 +75,7 @@ header h1 i {
 }
 
 header p {
-    font-size: 1.1rem;
+    font-size: clamp(0.9rem, 3vw, 1.1rem);
     opacity: 0.9;
     position: relative;
     z-index: 1;
@@ -81,6 +83,7 @@ header p {
 
 .search-container {
     max-width: 600px;
+    width: 90%;
     margin: 20px auto 0;
     position: relative;
     z-index: 1;
@@ -122,17 +125,16 @@ header p {
 
 .category-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 10px;
     margin-bottom: 30px;
 }
 
 .category-card {
-    aspect-ratio: 1/1; /* Square cards */
-    background: white;
+    background: white; /* Removed aspect-ratio to prevent clipping */
     border-radius: var(--border-radius);
-    padding: 25px 20px;
+    padding: 20px; /* Increased padding for better spacing */
     text-align: center;
     cursor: pointer;
     transition: var(--transition);
@@ -140,10 +142,12 @@ header p {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    width: 100%; /* Full width of grid cell */
-    box-sizing: border-box; /* Includes padding in width */
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 200px; /* Added minimum height to ensure content fits */
 }
 
 .category-card::before {
@@ -167,8 +171,8 @@ header p {
 }
 
 .icon-container {
-    width: 70px;
-    height: 70px;
+    width: clamp(50px, 10vw, 70px); /* Adjusted clamp for better scaling */
+    height: clamp(50px, 10vw, 70px);
     margin: 0 auto 15px;
     display: flex;
     align-items: center;
@@ -176,8 +180,9 @@ header p {
     background: var(--gradient-primary);
     color: white;
     border-radius: 50%;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
     transition: var(--transition);
+    flex-shrink: 0; /* Prevents shrinking */
 }
 
 .category-card:hover .icon-container {
@@ -188,11 +193,12 @@ header p {
 .category-card h3 {
     margin-bottom: 10px;
     color: var(--dark-color);
+    font-size: clamp(1rem, 3vw, 1.2rem);
 }
 
 .category-card p {
     color: var(--gray-color);
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 2.5vw, 0.9rem);
 }
 
 .dictionary-content {
@@ -201,6 +207,7 @@ header p {
     padding: 30px;
     box-shadow: var(--box-shadow);
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .content-header {
@@ -210,10 +217,13 @@ header p {
     margin-bottom: 20px;
     padding-bottom: 15px;
     border-bottom: 1px solid #eee;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .content-header h2 {
     color: var(--primary-color);
+    font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 #back-btn {
@@ -243,7 +253,7 @@ header p {
 }
 
 .welcome-message img {
-    max-width: 200px;
+    max-width: clamp(150px, 40vw, 200px);
     margin-bottom: 20px;
     opacity: 0.8;
 }
@@ -251,22 +261,25 @@ header p {
 .welcome-message h3 {
     margin-bottom: 15px;
     color: var(--secondary-color);
+    font-size: clamp(1.2rem, 3.5vw, 1.5rem);
 }
 
 .word-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    padding: 10px;
 }
 
 .word-item {
     background: #f8f9fa;
     border-radius: var(--border-radius);
-    padding: 20px;
+    padding: 15px;
     transition: var(--transition);
     border-left: 4px solid var(--primary-color);
-    min-height: 120px; /* Fixed height for uniformity */
-    overflow: hidden; /* Prevents content overflow */
+    min-height: 120px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .word-item:hover {
@@ -280,6 +293,7 @@ header p {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
+    font-size: clamp(1rem, 3vw, 1.2rem);
 }
 
 .word-item h3 i {
@@ -290,6 +304,7 @@ header p {
 .word-item p {
     color: var(--dark-color);
     margin-bottom: 5px;
+    font-size: clamp(0.8rem, 2.5vw, 0.9rem);
 }
 
 .word-item .example {
@@ -298,13 +313,14 @@ header p {
     padding-left: 15px;
     border-left: 2px solid #eee;
     margin-top: 10px;
+    font-size: clamp(0.7rem, 2vw, 0.9rem);
 }
 
 footer {
     text-align: center;
     padding: 20px;
     color: var(--gray-color);
-    font-size: 0.9rem;
+    font-size: clamp(0.8rem, 2vw, 0.9rem);
 }
 
 .footer-links {
@@ -314,7 +330,7 @@ footer {
 .footer-links a {
     color: var(--gray-color);
     margin: 0 10px;
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 3vw, 1.2rem);
     transition: var(--transition);
 }
 
@@ -323,13 +339,21 @@ footer {
 }
 
 /* Responsive Design */
+@media (min-width: 769px) { /* Added for laptop screens */
+    .category-card {
+        padding: 25px; /* More padding on larger screens */
+        min-height: 250px; /* Increased height for better spacing */
+    }
+    
+    .icon-container {
+        width: 70px; /* Fixed size for laptops */
+        height: 70px;
+    }
+}
+
 @media (max-width: 768px) {
     .category-grid {
         grid-template-columns: repeat(2, 1fr);
-    }
-    
-    header h1 {
-        font-size: 2rem;
     }
     
     .dictionary-content {
@@ -337,17 +361,14 @@ footer {
     }
     
     .word-list {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 480px) {
     .category-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    header h1 {
-        font-size: 1.8rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
     
     .search-container input {
@@ -355,145 +376,57 @@ footer {
     }
     
     .category-card {
-        padding: 20px 15px;
-    }
-}
-/* Category Page Specific Styles */
-.error {
-    color: #dc3545;
-    text-align: center;
-    padding: 20px;
-}
-
-#back-btn {
-    background: var(--gradient-accent);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 50px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin: 20px auto;
-    transition: var(--transition);
-}
-
-#back-btn:hover {
-    transform: translateX(-5px);
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .word-list {
-        grid-template-columns: 1fr;
-    }
-}
-/* Search Results Styles */
-.search-info {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 10px;
-    background: #f8f9fa;
-    border-radius: var(--border-radius);
-}
-
-.category-tag {
-    background: var(--accent-color);
-    color: white;
-    padding: 3px 8px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    margin-left: 8px;
-    text-transform: capitalize;
-}
-
-/* Loading and Error States */
-.loading {
-    text-align: center;
-    color: var(--primary-color);
-    font-style: italic;
-}
-
-.error {
-    color: #dc3545;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Search Results Styles */
-.search-info {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 10px;
-    background: #f8f9fa;
-    border-radius: var(--border-radius);
-}
-
-.category-tag {
-    background: var(--accent-color);
-    color: white;
-    padding: 3px 8px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    margin-left: 8px;
-    text-transform: capitalize;
-}
-
-/* ===== Mobile View Adjustments ===== */
-@media (max-width: 600px) {
-    /* Home Page - 2 cards per row */
-    .category-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
+        padding: 12px;
+        min-height: 180px; /* Adjusted for mobile */
     }
     
-    .category-card {
-        padding: 15px 10px;
-    }
-    
-    /* Content Page - 2 items per row */
     .word-list {
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 8px;
     }
     
     .word-item {
         padding: 12px;
-        font-size: 14px;
-    }
-    
-    .word-item h3 {
-        font-size: 16px;
     }
 }
 
-/* ===== Smaller Phones (Galaxy Fold, etc) ===== */
-@media (max-width: 400px) {
+@media (max-width: 350px) {
     .category-grid,
     .word-list {
-        grid-template-columns: 1fr; /* 1 per row if screen too small */
+        grid-template-columns: 1fr;
     }
 }
-/* ===== Mobile Layout Fix ===== */
-.category-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
+
+/* Additional Styles */
+.error {
+    color: #dc3545;
+    text-align: center;
+    padding: 20px;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+}
+
+.search-info {
+    text-align: center;
+    margin-bottom: 20px;
     padding: 10px;
-  }
-  
-  /* For very small screens (below 350px) */
-  @media (max-width: 350px) {
-    .category-grid {
-      grid-template-columns: 1fr; /* Single column */
-    }
-  }
-  
-  /* For word items in content pages */
-  .word-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 12px;
-    padding: 10px;
-  }
+    background: #f8f9fa;
+    border-radius: var(--border-radius);
+    font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+.category-tag {
+    background: var(--accent-color);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: clamp(0.7rem, 2vw, 0.8rem);
+    margin-left: 8px;
+    text-transform: capitalize;
+}
+
+.loading {
+    text-align: center;
+    color: var(--primary-color);
+    font-style: italic;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+}
