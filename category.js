@@ -14,13 +14,27 @@ const searchBtn = document.getElementById('search-btn');
 // Category titles mapping
 const categoryTitles = {
     'phrasal-verbs': 'Phrasal Verbs',
-    'idioms': 'English Idioms'
+    'idioms': 'English Idioms',
+    'proverbs': 'English Proverbs',
+    'daily-sentences': 'Daily Sentences',
+    'verbs': 'English Verbs',
 };
 
 // Current displayed data
 let currentData = [];
 let currentDisplayMode = 'list'; // 'list' or 'detail'
 let currentDetailItem = null;
+
+// Improved error handling function
+function showError(message) {
+    contentBody.innerHTML = `
+        <div class="error-message">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>${message}</p>
+            <button onclick="window.location.reload()">Try Again</button>
+        </div>
+    `;
+}
 
 // Handle messages from main page
 window.addEventListener('message', function(event) {
@@ -31,41 +45,71 @@ window.addEventListener('message', function(event) {
 
 // Load and display data based on URL parameters
 window.addEventListener('DOMContentLoaded', function() {
+    console.log(`Loading page with params: category=${category}, search=${isSearch}, query=${searchQuery}`);
+    
     if (searchQuery) {
         titleText.textContent = 'Search Results';
-        contentBody.innerHTML = '<p class="loading">Loading search results...</p>';
+        contentBody.innerHTML = '<p class="loading"><i class="fas fa-spinner fa-spin"></i> Loading search results...</p>';
         searchInCategory(searchQuery);
     } else if (isSearch) {
         titleText.textContent = 'Search Results';
-        contentBody.innerHTML = '<p class="loading">Loading search results...</p>';
+        contentBody.innerHTML = '<p class="loading"><i class="fas fa-spinner fa-spin"></i> Loading search results...</p>';
     } else if (category) {
-        loadAndDisplayCategory();
+        if (category in categoryTitles) {
+            loadAndDisplayCategory();
+        } else {
+            showError('Invalid category selected');
+            console.error(`Invalid category: ${category}`);
+        }
     } else {
         window.location.href = 'index.html';
     }
 });
 
-// Load and display category data
+// Enhanced load and display category data
 async function loadAndDisplayCategory() {
     try {
         titleText.textContent = categoryTitles[category] || category;
+        contentBody.innerHTML = '<p class="loading"><i class="fas fa-spinner fa-spin"></i> Loading data...</p>';
+        
         const response = await fetch(`data/${category}.json`);
-        if (!response.ok) throw new Error('Failed to load data');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
         currentData = await response.json();
+        
+        if (!Array.isArray(currentData)) {
+            throw new Error('Invalid data format: expected array');
+        }
+        
         displayList(currentData);
         setupCategorySearch();
+        
     } catch (error) {
         console.error(`Error loading ${category}:`, error);
-        contentBody.innerHTML = '<p class="error">Error loading data. Please try again.</p>';
+        showError(`Failed to load ${categoryTitles[category]}. ${error.message}`);
     }
 }
 
 // Display all items in list view
 function displayList(data) {
     currentDisplayMode = 'list';
+    
+    if (!data || data.length === 0) {
+        contentBody.innerHTML = '<p class="no-results">No items found in this category</p>';
+        return;
+    }
+    
     let html = '<div class="word-list">';
     
     data.forEach((item, index) => {
+        if (!item.term || !item.meaning) {
+            console.warn('Invalid item format at index', index, item);
+            return;
+        }
+        
         html += `
             <div class="word-item" data-id="${index}">
                 <h3><i class="fas fa-angle-right"></i> ${item.term}</h3>
@@ -83,13 +127,20 @@ function displayList(data) {
     document.querySelectorAll('.word-item').forEach(item => {
         item.addEventListener('click', function() {
             const itemId = parseInt(this.getAttribute('data-id'));
-            showDetailView(data[itemId]);
+            if (!isNaN(itemId) && data[itemId]) {
+                showDetailView(data[itemId]);
+            }
         });
     });
 }
 
 // Show detailed view for a single item
 function showDetailView(item) {
+    if (!item) {
+        console.error('Invalid item for detail view');
+        return;
+    }
+    
     currentDisplayMode = 'detail';
     currentDetailItem = item;
     
@@ -97,12 +148,12 @@ function showDetailView(item) {
         <div class="detail-view">
             <div class="detail-header">
                 <button id="back-to-list" class="back-btn"><i class="fas fa-arrow-left"></i> Back</button>
-                <h2>${item.term}</h2>
+                <h2>${item.term || 'No term available'}</h2>
             </div>
             <div class="detail-content">
                 <div class="detail-section">
                     <h3>Meaning</h3>
-                    <p>${item.meaning}</p>
+                    <p>${item.meaning || 'No meaning available'}</p>
                 </div>
                 
                 ${item.hindi_meaning ? `
@@ -125,6 +176,12 @@ function showDetailView(item) {
                     <p>${item.usage_note}</p>
                 </div>
                 ` : ''}
+                ${item.verbs_forms ? `
+                    <div class="detail-section">
+                        <h3>Verbs Forms</h3>
+                        <p>${item.verbs_forms}</p>
+                    </div>
+                    ` : ''}
                 
                 ${item.example ? `
                 <div class="detail-section">
@@ -139,26 +196,44 @@ function showDetailView(item) {
     contentBody.innerHTML = html;
     
     // Add back to list event
-    document.getElementById('back-to-list').addEventListener('click', function(e) {
-        e.stopPropagation();
-        displayList(currentData);
-    });
+    const backButton = document.getElementById('back-to-list');
+    if (backButton) {
+        backButton.addEventListener('click', function(e) {
+            e.stopPropagation();
+            displayList(currentData);
+        });
+    }
 }
 
 // Display search results
 function displaySearchResults(query, results) {
+    if (!query || !results) {
+        console.error('Invalid search results');
+        return;
+    }
+    
     titleText.textContent = `Search Results for "${query}"`;
     currentData = results;
+    
+    if (results.length === 0) {
+        contentBody.innerHTML = `<p class="no-results">No results found for "${query}"</p>`;
+        return;
+    }
     
     let html = `<div class="search-info">
         <p>Found ${results.length} results across all categories</p>
     </div><div class="word-list">`;
     
     results.forEach((item, index) => {
+        if (!item.term || !item.meaning) {
+            console.warn('Invalid search result item at index', index, item);
+            return;
+        }
+        
         html += `
             <div class="word-item" data-id="${index}">
                 <h3><i class="fas fa-angle-right"></i> ${item.term} 
-                    <span class="category-tag">${item.category.replace('-', ' ')}</span>
+                    <span class="category-tag">${(item.category || '').replace('-', ' ')}</span>
                 </h3>
                 <p><strong>Meaning:</strong> ${item.meaning}</p>
                 ${item.example ? `<p class="example"><strong>Example:</strong> ${item.example}</p>` : ''}
@@ -174,21 +249,33 @@ function displaySearchResults(query, results) {
     document.querySelectorAll('.word-item').forEach(item => {
         item.addEventListener('click', function() {
             const itemId = parseInt(this.getAttribute('data-id'));
-            showDetailView(results[itemId]);
+            if (!isNaN(itemId) && results[itemId]) {
+                showDetailView(results[itemId]);
+            }
         });
     });
 }
 
 // Set up search for current category
 function setupCategorySearch() {
-    searchBtn.addEventListener('click', () => searchInCategory(searchInput.value.trim()));
+    searchBtn.addEventListener('click', () => {
+        const query = searchInput.value.trim();
+        if (query) {
+            searchInCategory(query);
+        }
+    });
+    
     searchInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') searchInCategory(searchInput.value.trim());
+        if (e.key === 'Enter') {
+            const query = searchInput.value.trim();
+            if (query) {
+                searchInCategory(query);
+            }
+        }
     });
 }
 
-// Search within current category
-// Search within current category
+// Enhanced search within current category
 function searchInCategory(query = '') {
     if (!query && !searchQuery) {
         loadAndDisplayCategory();
@@ -196,19 +283,38 @@ function searchInCategory(query = '') {
     }
     
     const searchTerm = query || searchQuery;
+    console.log(`Searching for: "${searchTerm}" in ${category}`);
+    
+    contentBody.innerHTML = '<p class="loading"><i class="fas fa-spinner fa-spin"></i> Searching...</p>';
     
     fetch(`data/${category}.json`)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
-            const results = data.filter(item => 
-                item.term.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                item.meaning.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                (item.hindi_meaning && item.hindi_meaning.toLowerCase().includes(searchTerm.toLowerCase())) ||
-                (item.synonyms && item.synonyms.toLowerCase().includes(searchTerm.toLowerCase()))
-            );
+            if (!Array.isArray(data)) {
+                throw new Error('Invalid data format: expected array');
+            }
+            
+            const results = data.filter(item => {
+                try {
+                    return (
+                        (item.term && item.term.toLowerCase().includes(searchTerm.toLowerCase())) || 
+                        (item.meaning && item.meaning.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                        (item.hindi_meaning && item.hindi_meaning.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                        (item.synonyms && item.synonyms.toLowerCase().includes(searchTerm.toLowerCase()))
+                    );
+                } catch (e) {
+                    console.warn('Error filtering item:', item, e);
+                    return false;
+                }
+            });
             
             if (results.length === 0) {
-                contentBody.innerHTML = `<p>No results found for "${searchTerm}" in this category</p>`;
+                contentBody.innerHTML = `<p class="no-results">No results found for "${searchTerm}" in this category</p>`;
             } else {
                 titleText.textContent = `Search Results for "${searchTerm}"`;
                 displayList(results);
@@ -216,9 +322,10 @@ function searchInCategory(query = '') {
         })
         .catch(error => {
             console.error('Search error:', error);
-            contentBody.innerHTML = '<p class="error">Error during search. Please try again.</p>';
+            showError(`Search failed: ${error.message}`);
         });
 }
+
 // Back button functionality
 backBtn.addEventListener('click', () => {
     if (currentDisplayMode === 'detail') {
