@@ -1,28 +1,5002 @@
 [
     {
-        "term": "Turn up",
-        "meaning": "To arrive or appear",
-        "example": "He turned up at the party two hours late."
+        "term": "Break down",
+        "meaning": "To stop functioning",
+        "example": "My car broke down on the way to work."
     },
     {
-        "term": "Put off",
-        "meaning": "To postpone",
-        "example": "We had to put off the meeting until next week."
+        "term": "Call off",
+        "meaning": "To cancel",
+        "example": "They called off the wedding due to unforeseen circumstances."
     },
     {
-        "term": "Get along",
-        "meaning": "To have a good relationship",
-        "example": "She gets along well with her colleagues."
+        "term": "Carry on",
+        "meaning": "To continue",
+        "example": "Despite the rain, they carried on with the match."
     },
     {
-        "term": "Run out of",
-        "meaning": "To have no more of something",
-        "example": "We ran out of milk, so I need to buy some more."
+        "term": "Catch up",
+        "meaning": "To reach the same level",
+        "example": "He ran fast to catch up with his friends."
     },
     {
-        "term": "Look forward to",
-        "meaning": "To anticipate with pleasure",
-        "example": "I'm looking forward to our vacation next month."
+        "term": "Drop out",
+        "meaning": "To leave school or a course",
+        "example": "He dropped out of college to start his own business."
+    },
+    {
+        "term": "Figure out",
+        "meaning": "To understand or solve something",
+        "example": "I can't figure out how to use this software."
+    },
+    {
+        "term": "Give up",
+        "meaning": "To stop trying",
+        "example": "He gave up smoking last year."
+    },
+    {
+        "term": "Hold on",
+        "meaning": "To wait",
+        "example": "Please hold on while I transfer your call."
+    },
+    {
+        "term": "Look up",
+        "meaning": "To search for information",
+        "example": "She looked up the word in the dictionary."
+    },
+    {
+        "term": "Make up",
+        "meaning": "To invent a story or excuse",
+        "example": "He made up an excuse for being late."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
+    },
+    {
+        "term": "Back up",
+        "meaning": "To support",
+        "example": "I will back up your decision in the meeting."
+    },
+    {
+        "term": "Bring up",
+        "meaning": "To mention a topic",
+        "example": "She brought up an interesting point in the discussion."
+    },
+    {
+        "term": "Come across",
+        "meaning": "To find by chance",
+        "example": "I came across an old photo while cleaning my room."
+    },
+    {
+        "term": "Do without",
+        "meaning": "To manage without something",
+        "example": "We had to do without electricity during the storm."
+    },
+    {
+        "term": "Find out",
+        "meaning": "To discover",
+        "example": "She found out the truth about the incident."
+    },
+    {
+        "term": "Get by",
+        "meaning": "To survive or manage",
+        "example": "He gets by on a small salary."
+    },
+    {
+        "term": "Keep up",
+        "meaning": "To maintain the same level",
+        "example": "She walks so fast, I can barely keep up with her."
+    },
+    {
+        "term": "Lay off",
+        "meaning": "To dismiss from a job",
+        "example": "The company had to lay off several employees."
+    },
+    {
+        "term": "Pass out",
+        "meaning": "To faint",
+        "example": "He passed out due to the heat."
+    },
+    {
+        "term": "Take after",
+        "meaning": "To resemble a family member",
+        "example": "She takes after her mother in appearance and behavior."
     }
-    
 ]
