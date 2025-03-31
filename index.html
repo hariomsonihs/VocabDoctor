@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Dictionary App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-book-open"></i> LexiLearn</h1>
+            <p>Your comprehensive English learning companion</p>
+            
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search for words, idioms, phrases...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </header>
+
+        <main>
+            <section class="category-grid">
+                <!-- Phrasal Verbs -->
+                <div class="category-card" data-category="phrasal-verbs">
+                    <div class="icon-container">
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <h3>Phrasal Verbs</h3>
+                    <p>Common verb + preposition combinations</p>
+                </div>
+
+                <!-- Verbs -->
+                <div class="category-card" data-category="verbs">
+                    <div class="icon-container">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Verbs</h3>
+                    <p>Action words with meanings and examples</p>
+                </div>
+
+                <!-- Idioms -->
+                <div class="category-card" data-category="idioms">
+                    <div class="icon-container">
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <h3>Idioms</h3>
+                    <p>Expressions with figurative meanings</p>
+                </div>
+
+                <!-- Proverbs -->
+                <div class="category-card" data-category="proverbs">
+                    <div class="icon-container">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <h3>Proverbs</h3>
+                    <p>Traditional sayings expressing wisdom</p>
+                </div>
+
+                <!-- Daily Use Sentences -->
+                <div class="category-card" data-category="sentences">
+                    <div class="icon-container">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Daily Sentences</h3>
+                    <p>Common phrases for everyday conversations</p>
+                </div>
+
+                <!-- Body Parts -->
+                <div class="category-card" data-category="body-parts">
+                    <div class="icon-container">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Body Parts</h3>
+                    <p>Names of human anatomy</p>
+                </div>
+
+                <!-- Spices & Medicine -->
+                <div class="category-card" data-category="spices-medicine">
+                    <div class="icon-container">
+                        <i class="fas fa-mortar-pestle"></i>
+                    </div>
+                    <h3>Spices & Medicine</h3>
+                    <p>Common spices and medicinal terms</p>
+                </div>
+
+                <!-- Flowers -->
+                <div class="category-card" data-category="flowers">
+                    <div class="icon-container">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Flowers</h3>
+                    <p>Names of common flowers</p>
+                </div>
+
+                <!-- Trees -->
+                <div class="category-card" data-category="trees">
+                    <div class="icon-container">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Trees & Parts</h3>
+                    <p>Tree names and their components</p>
+                </div>
+
+                <!-- Grammar -->
+                <div class="category-card" data-category="grammar">
+                    <div class="icon-container">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Grammar Rules</h3>
+                    <p>Essential English grammar concepts</p>
+                </div>
+
+                <!-- Vocabulary -->
+                <div class="category-card" data-category="vocabulary">
+                    <div class="icon-container">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Vocabulary</h3>
+                    <p>Word lists with meanings</p>
+                </div>
+
+                <!-- Pronunciation -->
+                <div class="category-card" data-category="pronunciation">
+                    <div class="icon-container">
+                        <i class="fas fa-volume-up"></i>
+                    </div>
+                    <h3>Pronunciation</h3>
+                    <p>How to pronounce difficult words</p>
+                </div>
+            </section>
+
+            <!-- Dictionary Content Section -->
+            <section class="dictionary-content" id="dictionary-content">
+                <div class="content-header">
+                    <h2 id="content-title">Welcome to LexiLearn</h2>
+                    <button id="back-btn" class="hidden"><i class="fas fa-arrow-left"></i> Back</button>
+                </div>
+                <div class="content-body" id="content-body">
+                    <div class="welcome-message">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png" alt="Dictionary" class="welcome-img">
+                        <h3>Your English Learning Journey Starts Here</h3>
+                        <p>Select a category from the grid above to explore words, phrases, and expressions.</p>
+                        <p>Use the search bar to find specific terms across all categories.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 LexiLearn Dictionary App. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

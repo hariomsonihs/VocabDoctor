@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category View</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="category-title"><i class="fas fa-book-open"></i> <span id="title-text">Category</span></h1>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search in this category...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </header>
+
+        <main>
+            <div class="content-body" id="content-body">
+                <!-- Content will be loaded here by JavaScript -->
+            </div>
+        </main>
+
+        <footer>
+            <button id="back-btn"><i class="fas fa-arrow-left"></i> Back to Main</button>
+        </footer>
+    </div>
+
+    <script src="category.js"></script>
+</body>
+</html>
