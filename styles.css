@@ -262,44 +262,7 @@ header p {
     gap: 15px;
 }
 
-.word-item {
-    background: #f8f9fa;
-    border-radius: var(--border-radius);
-    padding: 20px;
-    transition: var(--transition);
-    border-left: 4px solid var(--primary-color);
-}
 
-.word-item:hover {
-    background: white;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    transform: translateY(-3px);
-}
-
-.word-item h3 {
-    color: var(--primary-color);
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.word-item h3 i {
-    margin-right: 10px;
-    color: var(--accent-color);
-}
-
-.word-item p {
-    color: var(--dark-color);
-    margin-bottom: 5px;
-}
-
-.word-item .example {
-    font-style: italic;
-    color: var(--gray-color);
-    padding-left: 15px;
-    border-left: 2px solid #eee;
-    margin-top: 10px;
-}
 
 footer {
     text-align: center;
@@ -514,4 +477,166 @@ footer {
     .logo {
       height: 30px;
     }
+  }
+  /* Base Styles */
+.word-item {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border-left: 4px solid #4a6bff;
+  }
+  
+  .word-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-left-color: #ff6b6b;
+  }
+  
+  .word-item h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .word-item h3 i {
+    margin-right: 10px;
+    color: #4a6bff;
+  }
+  
+  .view-details {
+    color: #4a6bff;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .view-details:hover {
+    color: #ff6b6b;
+  }
+  
+  .view-details i {
+    margin-left: 5px;
+    transition: all 0.2s;
+  }
+  
+  .view-details:hover i {
+    transform: translateX(3px);
+  }
+  
+  /* Detail View Styles */
+  .detail-view {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+  
+  .detail-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e0e6ed;
+    padding-bottom: 15px;
+  }
+  
+  .detail-header h2 {
+    color: #2c3e50;
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1.8rem;
+  }
+  
+  .back-btn {
+    background: #4a6bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.3s;
+    margin-right: 15px;
+  }
+  
+  .back-btn i {
+    margin-right: 5px;
+  }
+  
+  .back-btn:hover {
+    background: #3a5bef;
+    transform: translateX(-3px);
+  }
+  
+  .detail-section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .detail-section h3 {
+    color: #4a6bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .detail-section h3::before {
+    content: "•";
+    color: #ff6b6b;
+    margin-right: 8px;
+    font-size: 1.5rem;
+  }
+  
+  .detail-section p {
+    color: #4a5568;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .example {
+    font-style: italic;
+    color: #718096;
+    padding-left: 15px;
+    border-left: 3px solid #e2e8f0;
+  }
+  
+  .category-tag {
+    background: #4a6bff;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Animation Effects */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .detail-view {
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  .detail-section {
+    transition: all 0.3s;
+  }
+  
+  .detail-section:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }

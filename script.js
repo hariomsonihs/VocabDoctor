@@ -35,7 +35,9 @@ function searchAllCategories(query) {
     Object.keys(dictionaryData).forEach(category => {
         dictionaryData[category].forEach(item => {
             if (item.term.toLowerCase().includes(query) || 
-                item.meaning.toLowerCase().includes(query)) {
+                item.meaning.toLowerCase().includes(query) ||
+                (item.hindi_meaning && item.hindi_meaning.toLowerCase().includes(query)) ||
+                (item.synonyms && item.synonyms.toLowerCase().includes(query))) {
                 results.push({
                     ...item,
                     category: category
@@ -73,7 +75,7 @@ categoryCards.forEach(card => {
 searchBtn.addEventListener('click', () => {
     const query = searchInput.value.trim();
     if (query) {
-        window.location.href = `category.html?search=${encodeURIComponent(query)}`;
+        searchAllCategories(query);
     }
 });
 
