@@ -124,6 +124,7 @@ header p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
+    grid-template-columns: repeat(2, 1fr) !important;
     margin-bottom: 30px;
 }
 
@@ -139,6 +140,8 @@ header p {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    width: 100%; /* Full width of grid cell */
+    box-sizing: border-box; /* Includes padding in width */
     flex-direction: column;
     justify-content: center;
 }
@@ -472,3 +475,25 @@ footer {
         grid-template-columns: 1fr; /* 1 per row if screen too small */
     }
 }
+/* ===== Mobile Layout Fix ===== */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  /* For very small screens (below 350px) */
+  @media (max-width: 350px) {
+    .category-grid {
+      grid-template-columns: 1fr; /* Single column */
+    }
+  }
+  
+  /* For word items in content pages */
+  .word-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    padding: 10px;
+  }
