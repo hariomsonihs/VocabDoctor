@@ -128,6 +128,7 @@ header p {
 }
 
 .category-card {
+    aspect-ratio: 1/1; /* Square cards */
     background: white;
     border-radius: var(--border-radius);
     padding: 25px 20px;
@@ -138,6 +139,8 @@ header p {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .category-card::before {
@@ -259,6 +262,8 @@ header p {
     padding: 20px;
     transition: var(--transition);
     border-left: 4px solid var(--primary-color);
+    min-height: 120px; /* Fixed height for uniformity */
+    overflow: hidden; /* Prevents content overflow */
 }
 
 .word-item:hover {
@@ -430,4 +435,40 @@ footer {
     font-size: 0.8rem;
     margin-left: 8px;
     text-transform: capitalize;
+}
+
+/* ===== Mobile View Adjustments ===== */
+@media (max-width: 600px) {
+    /* Home Page - 2 cards per row */
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    
+    .category-card {
+        padding: 15px 10px;
+    }
+    
+    /* Content Page - 2 items per row */
+    .word-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .word-item {
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    .word-item h3 {
+        font-size: 16px;
+    }
+}
+
+/* ===== Smaller Phones (Galaxy Fold, etc) ===== */
+@media (max-width: 400px) {
+    .category-grid,
+    .word-list {
+        grid-template-columns: 1fr; /* 1 per row if screen too small */
+    }
 }
