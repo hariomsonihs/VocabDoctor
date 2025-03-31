@@ -29,6 +29,7 @@ body {
     background-color: #f5f7ff;
     color: var(--dark-color);
     line-height: 1.6;
+    user-select: none;
 }
 
 .container {
@@ -467,3 +468,42 @@ footer {
         grid-template-columns: 1fr; /* 1 per row if screen too small */
     }
 }
+/* Header Container Styling */
+.site-title {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+    gap: 15px;
+    margin: 0 auto; /* Auto margins help in centering */
+    width: fit-content; /* Only take needed space */
+    padding: 10px 20px;
+  }
+  
+  /* Alternative: Use Text Wrapper */
+  .site-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .header-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .logo {
+    height: 40px; /* Adjust size as needed */
+    width: auto;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .logo {
+      height: 30px;
+    }
+  }
