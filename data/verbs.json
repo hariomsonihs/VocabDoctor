@@ -1,0 +1,172 @@
+[
+    {
+        "term": "Act up",
+        "meaning": "To misbehave or malfunction",
+        "hindi_meaning": "बदमाशी करना या ख़राब होना",
+        "verb_forms": {
+            "base": "Act up",
+            "past": "Acted up",
+            "past_participle": "Acted up",
+            "present_participle": "Acting up",
+            "3rd_person": "Acts up"
+        },
+        "synonyms": "Malfunction, Misbehave",
+        "transitivity": "Intransitive (inseparable)",
+        "formality": "Informal",
+        "usage_note": "Often used for machines or children",
+        "example": "My laptop is acting up again."
+    },
+    {
+        "term": "Break down",
+        "meaning": "To stop working (machine) or lose emotional control",
+        "hindi_meaning": "टूट जाना या भावुक हो जाना",
+        "verb_forms": {
+            "base": "Break down",
+            "past": "Broke down",
+            "past_participle": "Broken down",
+            "present_participle": "Breaking down",
+            "3rd_person": "Breaks down"
+        },
+        "synonyms": "Fail, Collapse",
+        "transitivity": "Intransitive (inseparable)",
+        "formality": "Neutral",
+        "usage_note": "Used for vehicles, electronics, or emotional breakdowns",
+        "example": "The car broke down on the highway."
+    },
+    {
+        "term": "Call off",
+        "meaning": "To cancel something",
+        "hindi_meaning": "रद्द करना",
+        "verb_forms": {
+            "base": "Call off",
+            "past": "Called off",
+            "past_participle": "Called off",
+            "present_participle": "Calling off",
+            "3rd_person": "Calls off"
+        },
+        "synonyms": "Cancel, Abandon",
+        "transitivity": "Transitive (separable)",
+        "formality": "Neutral",
+        "usage_note": "Commonly used for events or plans",
+        "example": "They called off the meeting due to rain."
+    },
+    {
+        "term": "Dress up",
+        "meaning": "To wear formal or fancy clothes",
+        "hindi_meaning": "सजधज कर तैयार होना",
+        "verb_forms": {
+            "base": "Dress up",
+            "past": "Dressed up",
+            "past_participle": "Dressed up",
+            "present_participle": "Dressing up",
+            "3rd_person": "Dresses up"
+        },
+        "synonyms": "Decorate, Beautify",
+        "transitivity": "Intransitive/Transitive (separable)",
+        "formality": "Neutral",
+        "usage_note": "Used for parties, weddings, or costumes",
+        "example": "She dressed up as a pirate for Halloween."
+    },
+    {
+        "term": "Figure out",
+        "meaning": "To understand or solve something",
+        "hindi_meaning": "समझना या हल करना",
+        "verb_forms": {
+            "base": "Figure out",
+            "past": "Figured out",
+            "past_participle": "Figured out",
+            "present_participle": "Figuring out",
+            "3rd_person": "Figures out"
+        },
+        "synonyms": "Solve, Decipher",
+        "transitivity": "Transitive (separable)",
+        "formality": "Neutral",
+        "usage_note": "Used for problems, puzzles, or complex situations",
+        "example": "It took me hours to figure out the answer."
+    },
+    {
+        "term": "Give up",
+        "meaning": "To quit or surrender",
+        "hindi_meaning": "हार मान लेना",
+        "verb_forms": {
+            "base": "Give up",
+            "past": "Gave up",
+            "past_participle": "Given up",
+            "present_participle": "Giving up",
+            "3rd_person": "Gives up"
+        },
+        "synonyms": "Quit, Abandon",
+        "transitivity": "Transitive/Intransitive (separable)",
+        "formality": "Neutral",
+        "usage_note": "Used for habits, goals, or struggles",
+        "example": "He gave up sugar to improve his health."
+    },
+    {
+        "term": "Hold on",
+        "meaning": "To wait or grip tightly",
+        "hindi_meaning": "पकड़े रहना या इंतज़ार करना",
+        "verb_forms": {
+            "base": "Hold on",
+            "past": "Held on",
+            "past_participle": "Held on",
+            "present_participle": "Holding on",
+            "3rd_person": "Holds on"
+        },
+        "synonyms": "Wait, Cling",
+        "transitivity": "Intransitive (inseparable)",
+        "formality": "Informal",
+        "usage_note": "Used in conversations or physical holding",
+        "example": "Hold on tight—the ride is bumpy!"
+    },
+    {
+        "term": "Look after",
+        "meaning": "To take care of someone or something",
+        "hindi_meaning": "देखभाल करना",
+        "verb_forms": {
+            "base": "Look after",
+            "past": "Looked after",
+            "past_participle": "Looked after",
+            "present_participle": "Looking after",
+            "3rd_person": "Looks after"
+        },
+        "synonyms": "Care for, Tend",
+        "transitivity": "Transitive (inseparable)",
+        "formality": "Neutral",
+        "usage_note": "Used for people, pets, or responsibilities",
+        "example": "Can you look after my plants while I’m away?"
+    },
+    {
+        "term": "Make up",
+        "meaning": "To invent a story or reconcile after a fight",
+        "hindi_meaning": "गढ़ना या मेल-मिलाप करना",
+        "verb_forms": {
+            "base": "Make up",
+            "past": "Made up",
+            "past_participle": "Made up",
+            "present_participle": "Making up",
+            "3rd_person": "Makes up"
+        },
+        "synonyms": "Invent, Reconcile",
+        "transitivity": "Transitive/Intransitive (separable)",
+        "formality": "Neutral",
+        "usage_note": "Context determines meaning (lie vs. reconciliation)",
+        "example": "They made up a silly excuse. / They made up after the fight."
+    },
+    {
+        "term": "Put off",
+        "meaning": "To postpone or delay",
+        "hindi_meaning": "टालना",
+        "verb_forms": {
+            "base": "Put off",
+            "past": "Put off",
+            "past_participle": "Put off",
+            "present_participle": "Putting off",
+            "3rd_person": "Puts off"
+        },
+        "synonyms": "Postpone, Delay",
+        "transitivity": "Transitive (separable)",
+        "formality": "Neutral",
+        "usage_note": "Often implies procrastination",
+        "example": "Don’t put off your doctor’s appointment."
+    }
+]

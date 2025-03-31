@@ -1,0 +1,63 @@
+[
+    {
+        "term": "Good morning",
+        "meaning": "Morning greeting",
+        "hindi_meaning": "शुभ प्रभात",
+        "example": "Good morning! Did you sleep well?"
+    },
+    {
+        "term": "How are you?",
+        "meaning": "Asking about well-being",
+        "hindi_meaning": "आप कैसे हैं?",
+        "example": "Hi Priya! How are you today?"
+    },
+    {
+        "term": "What's your name?",
+        "meaning": "Asking someone's name",
+        "hindi_meaning": "आपका नाम क्या है?",
+        "example": "Hello sir, what's your name?"
+    },
+    {
+        "term": "My name is...",
+        "meaning": "Telling your name",
+        "hindi_meaning": "मेरा नाम... है",
+        "example": "My name is Amit."
+    },
+    {
+        "term": "Nice to meet you",
+        "meaning": "Polite greeting",
+        "hindi_meaning": "आपसे मिलकर खुशी हुई",
+        "example": "Nice to meet you, Mr. Sharma!"
+    },
+    {
+        "term": "Where are you from?",
+        "meaning": "Asking about origin",
+        "hindi_meaning": "आप कहाँ से हैं?",
+        "example": "You have an interesting accent. Where are you from?"
+    },
+    {
+        "term": "I'm from...",
+        "meaning": "Telling your origin",
+        "hindi_meaning": "मैं... से हूँ",
+        "example": "I'm from Delhi originally."
+    },
+    {
+        "term": "What do you do?",
+        "meaning": "Asking about work",
+        "hindi_meaning": "आप क्या करते हैं?",
+        "example": "I'm a teacher. What do you do?"
+    },
+    {
+        "term": "How old are you?",
+        "meaning": "Asking about age",
+        "hindi_meaning": "आपकी उम्र क्या है?",
+        "example": "How old are you, if you don't mind me asking?"
+    },
+    {
+        "term": "I'm... years old",
+        "meaning": "Telling your age",
+        "hindi_meaning": "मैं... साल का हूँ",
+        "example": "I'm 25 years old."
+    }
+    
+]
