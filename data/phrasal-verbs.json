@@ -1,1 +1,28 @@
-
+[
+    {
+        "term": "Turn up",
+        "meaning": "To arrive or appear",
+        "example": "He turned up at the party two hours late."
+    },
+    {
+        "term": "Put off",
+        "meaning": "To postpone",
+        "example": "We had to put off the meeting until next week."
+    },
+    {
+        "term": "Get along",
+        "meaning": "To have a good relationship",
+        "example": "She gets along well with her colleagues."
+    },
+    {
+        "term": "Run out of",
+        "meaning": "To have no more of something",
+        "example": "We ran out of milk, so I need to buy some more."
+    },
+    {
+        "term": "Look forward to",
+        "meaning": "To anticipate with pleasure",
+        "example": "I'm looking forward to our vacation next month."
+    }
+    
+]
