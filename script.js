@@ -4,7 +4,8 @@ const dictionaryData = {
     'idioms': [],
     'proverbs': [],
     'daily-sentences': [],
-    'verbs':[]
+    'verbs':[],
+    'antonyms':[]
 };
 
 // DOM Elements
@@ -27,7 +28,8 @@ async function loadAllCategories() {
             'data/idioms.json', 
             'data/proverbs.json',
             'data/daily-sentences.json',
-            'data/verbs.json'
+            'data/verbs.json',
+            'data/antonyms.json'
         ];
 
         const responses = await Promise.all(
@@ -46,6 +48,7 @@ async function loadAllCategories() {
         dictionaryData['proverbs'] = responses[2] || [];
         dictionaryData['daily-sentences'] = responses[3] || [];
         dictionaryData['verbs'] = responses[4] || [];
+         dictionaryData['antonyms'] = responses[5] || [];
 
         console.log('Data loaded successfully:', dictionaryData);
         
@@ -149,4 +152,5 @@ document.addEventListener('DOMContentLoaded', () => {
     loadAllCategories().then(() => {
         console.log('App initialization complete');
     });
+
 });
