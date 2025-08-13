@@ -1,8 +1,3428 @@
 [
     {
+        "term": "A bad workman blames his tools",
+        "meaning": "A poor performer blames their equipment instead of themselves",
+        "hindi_meaning": "बुरा काम करने वाला अपने औज़ारों को दोष देता है",
+        "example": "He failed the project and blamed the software - a bad workman blames his tools."
+    },
+    {
+        "term": "A bird in the hand is worth two in the bush",
+        "meaning": "It's better to have a sure thing now than to hope for more later",
+        "hindi_meaning": "हाथ में एक पक्षी जंगल में दो से बेहतर है",
+        "example": "She took the job offer instead of waiting for a better one - a bird in the hand is worth two in the bush."
+    },
+    {
+        "term": "A cat has nine lives",
+        "meaning": "Some people seem to escape danger repeatedly",
+        "hindi_meaning": "बिल्ली के नौ जानें होती हैं",
+        "example": "He survived another accident - a cat has nine lives."
+    },
+    {
+        "term": "A chain is only as strong as its weakest link",
+        "meaning": "The strength of a group depends on its weakest member",
+        "hindi_meaning": "एक श्रृंखला केवल अपनी सबसे कमजोर कड़ी जितनी मजबूत होती है",
+        "example": "The team's project failed because one member didn't do their part - a chain is only as strong as its weakest link."
+    },
+    {
+        "term": "A drowning man will clutch at a straw",
+        "meaning": "In desperation, people will try anything to save themselves",
+        "hindi_meaning": "डूबता हुआ व्यक्ति तिनके का सहारा लेता है",
+        "example": "She applied to every job during the crisis - a drowning man will clutch at a straw."
+    },
+    {
+        "term": "A fool and his money are soon parted",
+        "meaning": "A foolish person quickly loses their money",
+        "hindi_meaning": "मूर्ख और उसका धन जल्दी अलग हो जाते हैं",
+        "example": "He spent all his savings on scams - a fool and his money are soon parted."
+    },
+    {
+        "term": "A friend in need is a friend indeed",
+        "meaning": "A true friend helps you when you're in trouble",
+        "hindi_meaning": "ज़रूरत में दोस्त ही सच्चा दोस्त है",
+        "example": "She stayed by my side during tough times - a friend in need is a friend indeed."
+    },
+    {
+        "term": "A good beginning makes a good ending",
+        "meaning": "Starting well leads to successful outcomes",
+        "hindi_meaning": "अच्छी शुरुआत अच्छा अंत करती है",
+        "example": "They planned the project carefully and succeeded - a good beginning makes a good ending."
+    },
+    {
+        "term": "A house divided against itself cannot stand",
+        "meaning": "A group with internal conflicts will fail",
+        "hindi_meaning": "अपने आप में बंटा हुआ घर खड़ा नहीं रह सकता",
+        "example": "The team argued constantly and lost - a house divided against itself cannot stand."
+    },
+    {
+        "term": "A journey of a thousand miles begins with a single step",
+        "meaning": "Big tasks start with small actions",
+        "hindi_meaning": "हज़ार मील की यात्रा एक कदम से शुरू होती है",
+        "example": "He began learning coding with one lesson - a journey of a thousand miles begins with a single step."
+    },
+    {
+        "term": "A leopard cannot change its spots",
+        "meaning": "People cannot change their basic nature",
+        "hindi_meaning": "तेंदुआ अपने धब्बे नहीं बदल सकता",
+        "example": "He keeps lying despite promises - a leopard cannot change its spots."
+    },
+    {
+        "term": "A little knowledge is a dangerous thing",
+        "meaning": "Partial understanding can lead to mistakes",
+        "hindi_meaning": "थोड़ा ज्ञान खतरनाक होता है",
+        "example": "He tried fixing the car with basic skills and made it worse - a little knowledge is a dangerous thing."
+    },
+    {
+        "term": "A penny saved is a penny earned",
+        "meaning": "Saving money is as good as earning it",
+        "hindi_meaning": "बचाया हुआ पैसा कमाया हुआ पैसा है",
+        "example": "She avoided buying unnecessary things - a penny saved is a penny earned."
+    },
+    {
+        "term": "A picture is worth a thousand words",
+        "meaning": "An image can convey complex ideas better than words",
+        "hindi_meaning": "एक तस्वीर हज़ार शब्दों के बराबर है",
+        "example": "The photo of the disaster said it all - a picture is worth a thousand words."
+    },
+    {
+        "term": "A rolling stone gathers no moss",
+        "meaning": "A person who keeps moving avoids burdens",
+        "hindi_meaning": "लुढ़कता पत्थर काई नहीं जमाता",
+        "example": "She travels constantly and stays carefree - a rolling stone gathers no moss."
+    },
+    {
+        "term": "A stitch in time saves nine",
+        "meaning": "Fixing a problem early prevents bigger issues later",
+        "hindi_meaning": "समय पर एक टांका नौ बचाता है",
+        "example": "He repaired the leak immediately - a stitch in time saves nine."
+    },
+    {
+        "term": "A watched pot never boils",
+        "meaning": "Time feels slower when you wait anxiously",
+        "hindi_meaning": "देखा हुआ बर्तन कभी नहीं उबलता",
+        "example": "Stop checking your phone for the message - a watched pot never boils."
+    },
+    {
+        "term": "Absence makes the heart grow fonder",
+        "meaning": "Being apart increases affection",
+        "hindi_meaning": "दूरी दिल को और प्यारा बनाती है",
+        "example": "They missed each other more after months apart - absence makes the heart grow fonder."
+    },
+    {
         "term": "Actions speak louder than words",
         "meaning": "What you do is more important than what you say",
         "hindi_meaning": "कर्म शब्दों से ज़्यादा बोलते हैं",
         "example": "He kept promising to help but never did - actions speak louder than words."
-    }
-]
+    },
+    {
+        "term": "All good things come to those who wait",
+        "meaning": "Patience leads to rewards",
+        "hindi_meaning": "सब अच्छी चीजें उनके पास आती हैं जो इंतज़ार करते हैं",
+        "example": "She waited years for the promotion and got it - all good things come to those who wait."
+    },
+    {
+        "term": "All is fair in love and war",
+        "meaning": "In extreme situations, any action is acceptable",
+        "hindi_meaning": "प्यार और युद्ध में सब कुछ जायज़ है",
+        "example": "He used tricks to win her heart - all is fair in love and war."
+    },
+    {
+        "term": "All that glitters is not gold",
+        "meaning": "Things that look valuable may not be",
+        "hindi_meaning": "हर चमकने वाली चीज सोना नहीं होती",
+        "example": "The deal seemed perfect but was a scam - all that glitters is not gold."
+    },
+    {
+        "term": "An apple a day keeps the doctor away",
+        "meaning": "Healthy habits prevent illness",
+        "hindi_meaning": "रोज़ एक सेब डॉक्टर को दूर रखता है",
+        "example": "She eats fruit daily to stay fit - an apple a day keeps the doctor away."
+    },
+    {
+        "term": "Any port in a storm",
+        "meaning": "In desperate times, any help is welcome",
+        "hindi_meaning": "तूफान में कोई भी बंदरगाह ठीक है",
+        "example": "He took the risky job during the crisis - any port in a storm."
+    },
+    {
+        "term": "As you sow, so shall you reap",
+        "meaning": "Your actions determine your outcomes",
+        "hindi_meaning": "जैसा बोओगे, वैसा काटोगे",
+        "example": "She worked hard and succeeded - as you sow, so shall you reap."
+    },
+    {
+        "term": "A bad penny always turns up",
+        "meaning": "Unwanted things or people keep reappearing",
+        "hindi_meaning": "खराब पैसा हमेशा वापस आता है",
+        "example": "He keeps showing up uninvited - a bad penny always turns up."
+    },
+    {
+        "term": "A barking dog never bites",
+        "meaning": "Those who make loud threats rarely act on them",
+        "hindi_meaning": "भौंकने वाला कुत्ता कभी नहीं काटता",
+        "example": "He shouted but didn’t fight - a barking dog never bites."
+    },
+    {
+        "term": "A black sheep",
+        "meaning": "A person who is different or disgraced in a group",
+        "hindi_meaning": "काली भेड़",
+        "example": "He’s the only one who failed in the family - a black sheep."
+    },
+    {
+        "term": "A blessing in disguise",
+        "meaning": "Something that seems bad but turns out to be good",
+        "hindi_meaning": "छिपा हुआ आशीर्वाद",
+        "example": "Losing that job led to a better one - a blessing in disguise."
+    },
+    {
+        "term": "A chip on your shoulder",
+        "meaning": "Being angry or holding a grudge",
+        "hindi_meaning": "कंधे पर चिप",
+        "example": "He’s upset about the criticism and won’t let it go - a chip on your shoulder."
+    },
+    {
+        "term": "A clean slate",
+        "meaning": "A fresh start without past mistakes",
+        "hindi_meaning": "स्वच्छ स्लेट",
+        "example": "She started over in a new city - a clean slate."
+    },
+    {
+        "term": "A dime a dozen",
+        "meaning": "Something very common and of little value",
+        "hindi_meaning": "दस पैसे में दर्जन",
+        "example": "Such apps are everywhere - a dime a dozen."
+    },
+    {
+        "term": "A drop in the bucket",
+        "meaning": "A small amount compared to what is needed",
+        "hindi_meaning": "बाल्टी में बूंद",
+        "example": "Her donation was helpful but not enough - a drop in the bucket."
+    },
+    {
+        "term": "A fish out of water",
+        "meaning": "Someone who feels uncomfortable in an unfamiliar situation",
+        "hindi_meaning": "पानी से बाहर मछली",
+        "example": "He felt awkward at the formal event - a fish out of water."
+    },
+    {
+        "term": "A hard nut to crack",
+        "meaning": "A difficult problem or person to deal with",
+        "hindi_meaning": "कठिन अखरोट",
+        "example": "Convincing her was tough - a hard nut to crack."
+    },
+    {
+        "term": "A piece of cake",
+        "meaning": "Something very easy to do",
+        "hindi_meaning": "केक का टुकड़ा",
+        "example": "The exam was simple for her - a piece of cake."
+    },
+    {
+        "term": "A shot in the dark",
+        "meaning": "A guess or attempt with little chance of success",
+        "hindi_meaning": "अंधेरे में तीर",
+        "example": "He applied for the job without experience - a shot in the dark."
+    },
+    {
+        "term": "A stone’s throw",
+        "meaning": "A short distance",
+        "hindi_meaning": "पत्थर की फेंक",
+        "example": "Her house is nearby - a stone’s throw."
+    },
+    {
+        "term": "A taste of your own medicine",
+        "meaning": "Experiencing the same negative treatment you gave others",
+        "hindi_meaning": "अपनी ही दवा का स्वाद",
+        "example": "He was ignored after ignoring others - a taste of your own medicine."
+    },
+    {
+        "term": "A wolf in sheep’s clothing",
+        "meaning": "Someone who hides harmful intentions behind a friendly appearance",
+        "hindi_meaning": "भेड़ की खाल में भेड़िया",
+        "example": "He seemed kind but betrayed us - a wolf in sheep’s clothing."
+    },
+        {
+            "term": "Barking up the wrong tree",
+            "meaning": "Making a mistake about the cause of something or the person responsible",
+            "hindi_meaning": "गलत पेड़ पर भौंकना",
+            "example": "He accused me of stealing, but he’s barking up the wrong tree."
+        },
+        {
+            "term": "Beauty is in the eye of the beholder",
+            "meaning": "What is beautiful depends on personal perspective",
+            "hindi_meaning": "सौंदर्य देखने वाले की नजर में होता है",
+            "example": "She loves abstract art, but I don’t—beauty is in the eye of the beholder."
+        },
+        {
+            "term": "Beggars can’t be choosers",
+            "meaning": "Those in need must accept what is offered",
+            "hindi_meaning": "भिखारी चयन नहीं कर सकते",
+            "example": "He wanted a better job but took what was available—beggars can’t be choosers."
+        },
+        {
+            "term": "Better late than never",
+            "meaning": "It’s better to do something late than not at all",
+            "hindi_meaning": "देर से बेहतर कभी नहीं",
+            "example": "She finished the project after the deadline—better late than never."
+        },
+        {
+            "term": "Better safe than sorry",
+            "meaning": "It’s preferable to be cautious than regret not being so",
+            "hindi_meaning": "सुरक्षित रहना पछताने से बेहतर है",
+            "example": "He wore a helmet just in case—better safe than sorry."
+        },
+        {
+            "term": "Between a rock and a hard place",
+            "meaning": "Facing two difficult choices",
+            "hindi_meaning": "चट्टान और कठिन जगह के बीच",
+            "example": "She had to choose between a low-paying job or unemployment—between a rock and a hard place."
+        },
+        {
+            "term": "Birds of a feather flock together",
+            "meaning": "People with similar interests or traits tend to group together",
+            "hindi_meaning": "एक जैसे परिंदे एक साथ रहते हैं",
+            "example": "They both love gaming and became friends—birds of a feather flock together."
+        },
+        {
+            "term": "Bite off more than you can chew",
+            "meaning": "Taking on more than you can handle",
+            "hindi_meaning": "जितना चबा सकते हो उससे ज्यादा काटना",
+            "example": "He took on three projects at once and failed—biting off more than he could chew."
+        },
+        {
+            "term": "Bite the bullet",
+            "meaning": "To endure a painful or difficult situation with courage",
+            "hindi_meaning": "गोली काटना",
+            "example": "She decided to bite the bullet and finish the tough task."
+        },
+        {
+            "term": "Blood is thicker than water",
+            "meaning": "Family ties are stronger than other relationships",
+            "hindi_meaning": "खून पानी से गाढ़ा होता है",
+            "example": "He supported his brother despite their fight—blood is thicker than water."
+        },
+        {
+            "term": "Break the ice",
+            "meaning": "To start a conversation in an awkward situation",
+            "hindi_meaning": "बर्फ तोड़ना",
+            "example": "She told a joke to break the ice at the meeting."
+        },
+        {
+            "term": "Burn the midnight oil",
+            "meaning": "To work late into the night",
+            "hindi_meaning": "आधी रात तक तेल जलाना",
+            "example": "He burned the midnight oil to finish the report."
+        },
+        {
+            "term": "Bury the hatchet",
+            "meaning": "To end a conflict and make peace",
+            "hindi_meaning": "कुल्हाड़ी दफनाना",
+            "example": "They argued for years but finally buried the hatchet."
+        },
+        {
+            "term": "Beat around the bush",
+            "meaning": "To avoid talking about the main issue",
+            "hindi_meaning": "झाड़ी के आसपास मारना",
+            "example": "Stop beating around the bush and tell me the truth."
+        },
+        {
+            "term": "Better the devil you know than the devil you don’t",
+            "meaning": "It’s better to deal with a familiar problem than an unknown one",
+            "hindi_meaning": "जाना हुआ शैतान अनजान शैतान से बेहतर है",
+            "example": "She stayed with her old job—better the devil you know than the devil you don’t."
+        },
+        {
+            "term": "Break a leg",
+            "meaning": "A way to wish someone good luck, especially in performance",
+            "hindi_meaning": "टांग तोड़ना",
+            "example": "He said ‘break a leg’ before her stage performance."
+        },
+        {
+            "term": "Burn your bridges",
+            "meaning": "To eliminate the possibility of returning to a situation",
+            "hindi_meaning": "पुल जलाना",
+            "example": "She quit her job rudely, burning her bridges with the company."
+        },
+        {
+            "term": "By the skin of your teeth",
+            "meaning": "To narrowly succeed or escape",
+            "hindi_meaning": "दांतों की चमड़ी से",
+            "example": "He passed the exam by the skin of his teeth."
+        },
+        {
+            "term": "Back to the drawing board",
+            "meaning": "To start over after a failure",
+            "hindi_meaning": "ड्राइंग बोर्ड पर वापस",
+            "example": "The plan didn’t work, so it’s back to the drawing board."
+        },
+        {
+            "term": "Bark is worse than your bite",
+            "meaning": "Someone’s threats are scarier than their actions",
+            "hindi_meaning": "भौंकना काटने से बदतर है",
+            "example": "He yells a lot, but his bark is worse than his bite."
+        },
+        {
+            "term": "Beating a dead horse",
+            "meaning": "Wasting effort on a hopeless cause",
+            "hindi_meaning": "मरे हुए घोड़े को पीटना",
+            "example": "Arguing with him is pointless—you’re beating a dead horse."
+        },
+        {
+            "term": "Beauty is only skin deep",
+            "meaning": "Physical appearance is not as important as character",
+            "hindi_meaning": "सौंदर्य केवल त्वचा की गहराई तक होता है",
+            "example": "She’s kind, not just pretty—beauty is only skin deep."
+        },
+        {
+            "term": "Bend over backwards",
+            "meaning": "To make a great effort to help someone",
+            "hindi_meaning": "पीछे की ओर झुकना",
+            "example": "She bent over backwards to help her friend move."
+        },
+        {
+            "term": "Best of both worlds",
+            "meaning": "Enjoying the advantages of two different situations",
+            "hindi_meaning": "दोनों संसारों का सर्वश्रेष्ठ",
+            "example": "Working from home gives her the best of both worlds."
+        },
+        {
+            "term": "Bite the dust",
+            "meaning": "To fail or die",
+            "hindi_meaning": "धूल चाटना",
+            "example": "His business plan bit the dust after the market crashed."
+        },
+        {
+            "term": "Blessing in disguise",
+            "meaning": "Something that seems bad but turns out to be good",
+            "hindi_meaning": "छिपा हुआ आशीर्वाद",
+            "example": "Losing that job led to a better one—a blessing in disguise."
+        },
+        {
+            "term": "Blow off steam",
+            "meaning": "To release pent-up emotions or energy",
+            "hindi_meaning": "भाप निकालना",
+            "example": "He went for a run to blow off steam after a tough day."
+        },
+        {
+            "term": "Born with a silver spoon in your mouth",
+            "meaning": "Born into wealth or privilege",
+            "hindi_meaning": "चांदी का चम्मच मुंह में लेकर पैदा होना",
+            "example": "She never worked hard—she was born with a silver spoon in her mouth."
+        },
+        {
+            "term": "Break the bank",
+            "meaning": "To use up all your money",
+            "hindi_meaning": "बैंक तोड़ना",
+            "example": "Buying that car won’t break the bank if you save up."
+        },
+        {
+            "term": "Bring home the bacon",
+            "meaning": "To earn money for the family",
+            "hindi_meaning": "घर में रोटी लाना",
+            "example": "He works two jobs to bring home the bacon."
+        },
+        {
+            "term": "Burn the candle at both ends",
+            "meaning": "To overwork yourself by doing too much",
+            "hindi_meaning": "मोमबत्ती को दोनों सिरों से जलाना",
+            "example": "She’s exhausted from burning the candle at both ends."
+        },
+        {
+            "term": "Bury your head in the sand",
+            "meaning": "To ignore a problem hoping it will go away",
+            "hindi_meaning": "रेत में सिर छिपाना",
+            "example": "Ignoring the debt won’t help—you’re burying your head in the sand."
+        },
+        {
+            "term": "Butter someone up",
+            "meaning": "To flatter someone to gain favor",
+            "hindi_meaning": "किसी को चिकना करना",
+            "example": "He buttered up the boss to get a promotion."
+        },
+        {
+            "term": "Buy a pig in a poke",
+            "meaning": "To buy something without knowing its true value",
+            "hindi_meaning": "बोरी में सुअर खरीदना",
+            "example": "He bought the car online without checking it—a pig in a poke."
+        },
+        {
+            "term": "Back against the wall",
+            "meaning": "In a difficult situation with no easy way out",
+            "hindi_meaning": "दीवार के खिलाफ पीठ",
+            "example": "With bills piling up, his back was against the wall."
+        },
+        {
+            "term": "Ball is in your court",
+            "meaning": "It’s your turn to make a decision or take action",
+            "hindi_meaning": "गेंद आपके पाले में है",
+            "example": "I’ve done my part—now the ball is in your court."
+        },
+        {
+            "term": "Bark worse than your bite",
+            "meaning": "Someone’s threats are not as harmful as they seem",
+            "hindi_meaning": "भौंकना काटने से बदतर है",
+            "example": "She yells a lot, but her bark is worse than her bite."
+        },
+        {
+            "term": "Beat the bushes",
+            "meaning": "To search thoroughly for something",
+            "hindi_meaning": "झाड़ियों को पीटना",
+            "example": "They beat the bushes to find the lost keys."
+        },
+        {
+            "term": "Bite your tongue",
+            "meaning": "To refrain from saying something",
+            "hindi_meaning": "अपनी जीभ काटना",
+            "example": "She bit her tongue to avoid arguing with him."
+        },
+        {
+            "term": "Bolt from the blue",
+            "meaning": "Something unexpected or surprising",
+            "hindi_meaning": "नीले रंग से बिजली",
+            "example": "The news of his resignation was a bolt from the blue."
+        },
+        {
+            "term": "Bread and butter",
+            "meaning": "A person’s main source of income",
+            "hindi_meaning": "रोटी और मक्खन",
+            "example": "Teaching is her bread and butter."
+        },
+        {
+            "term": "Break new ground",
+            "meaning": "To do something innovative or new",
+            "hindi_meaning": "नई ज़मीन तोड़ना",
+            "example": "Their research broke new ground in medicine."
+        },
+        {
+            "term": "Call a spade a spade",
+            "meaning": "To speak plainly and truthfully",
+            "hindi_meaning": "बेलचा को बेलचा कहना",
+            "example": "She didn’t sugarcoat the issue—she called a spade a spade."
+        },
+        {
+            "term": "Carpe diem",
+            "meaning": "Seize the day; make the most of the present moment",
+            "hindi_meaning": "दिन को पकड़ो",
+            "example": "He decided to travel now—carpe diem."
+        },
+        {
+            "term": "Carry coals to Newcastle",
+            "meaning": "To do something unnecessary or redundant",
+            "hindi_meaning": "न्यूकैसल में कोयला ले जाना",
+            "example": "Giving him more books is like carrying coals to Newcastle."
+        },
+        {
+            "term": "Cast pearls before swine",
+            "meaning": "To offer something valuable to someone who doesn’t appreciate it",
+            "hindi_meaning": "सुअरों के सामने मोती बिखेरना",
+            "example": "Explaining art to him was like casting pearls before swine."
+        },
+        {
+            "term": "Catch someone red-handed",
+            "meaning": "To catch someone in the act of doing something wrong",
+            "hindi_meaning": "किसी को रंगे हाथों पकड़ना",
+            "example": "The thief was caught red-handed stealing the wallet."
+        },
+        {
+            "term": "Charity begins at home",
+            "meaning": "Take care of those close to you before helping others",
+            "hindi_meaning": "दया घर से शुरू होती है",
+            "example": "She helped her family first—charity begins at home."
+        },
+        {
+            "term": "Chew the fat",
+            "meaning": "To have a casual, lengthy conversation",
+            "hindi_meaning": "लंबी बातचीत करना",
+            "example": "They sat down to chew the fat over coffee."
+        },
+        {
+            "term": "Chickens come home to roost",
+            "meaning": "The consequences of your actions will eventually catch up with you",
+            "hindi_meaning": "मुर्गियां घर लौटती हैं",
+            "example": "His lies caught up with him—chickens come home to roost."
+        },
+        {
+            "term": "Clean bill of health",
+            "meaning": "A confirmation that someone or something is in good condition",
+            "hindi_meaning": "स्वास्थ्य का प्रमाण पत्र",
+            "example": "The car got a clean bill of health from the mechanic."
+        },
+        {
+            "term": "Close but no cigar",
+            "meaning": "Almost succeeding but falling short",
+            "hindi_meaning": "करीब लेकिन सिगार नहीं",
+            "example": "He nearly won the race—close but no cigar."
+        },
+        {
+            "term": "Close the stable door after the horse has bolted",
+            "meaning": "To take action too late to prevent harm",
+            "hindi_meaning": "घोड़ा भाग जाने के बाद अस्तबल का दरवाजा बंद करना",
+            "example": "Fixing the leak now is like closing the stable door after the horse has bolted."
+        },
+        {
+            "term": "Cold feet",
+            "meaning": "To become nervous or hesitant about something",
+            "hindi_meaning": "पैर ठंडे पड़ना",
+            "example": "She got cold feet before the big presentation."
+        },
+        {
+            "term": "Come hell or high water",
+            "meaning": "No matter what difficulties arise",
+            "hindi_meaning": "नरक हो या ऊंचा पानी",
+            "example": "He’ll finish the project come hell or high water."
+        },
+        {
+            "term": "Count your blessings",
+            "meaning": "To be grateful for what you have",
+            "hindi_meaning": "अपने आशीर्वाद गिनो",
+            "example": "Despite the challenges, she counted her blessings."
+        },
+        {
+            "term": "Cross that bridge when you come to it",
+            "meaning": "Deal with a problem when it arises, not before",
+            "hindi_meaning": "पुल पार करो जब उस पर आओ",
+            "example": "Don’t worry about the exam now—cross that bridge when you come to it."
+        },
+        {
+            "term": "Cry over spilled milk",
+            "meaning": "To regret something that cannot be undone",
+            "hindi_meaning": "गिरे हुए दूध पर रोना",
+            "example": "No use crying over spilled milk—move on from the mistake."
+        },
+        {
+            "term": "Cry wolf",
+            "meaning": "To raise a false alarm repeatedly",
+            "hindi_meaning": "भेड़िया आया चिल्लाना",
+            "example": "He kept lying about emergencies, so no one believed him when he cried wolf."
+        },
+        {
+            "term": "Curiosity killed the cat",
+            "meaning": "Being too curious can lead to trouble",
+            "hindi_meaning": "जिज्ञासा ने बिल्ली को मार डाला",
+            "example": "She got into trouble snooping around—curiosity killed the cat."
+        },
+        {
+            "term": "Cut to the chase",
+            "meaning": "To get to the point without wasting time",
+            "hindi_meaning": "मुद्दे पर आना",
+            "example": "Stop explaining and cut to the chase—what’s the plan?"
+        },
+        {
+            "term": "Cut your coat according to your cloth",
+            "meaning": "Live within your means",
+            "hindi_meaning": "अपने कपड़े के अनुसार कोट काटो",
+            "example": "He bought a modest car—cut your coat according to your cloth."
+        },
+        {
+            "term": "Caught between two stools",
+            "meaning": "Failing to choose between two options",
+            "hindi_meaning": "दो स्टूलों के बीच फंसना",
+            "example": "She couldn’t decide between jobs and lost both—caught between two stools."
+        },
+        {
+            "term": "Clean as a whistle",
+            "meaning": "Completely clean or free of wrongdoing",
+            "hindi_meaning": "सीटी की तरह साफ",
+            "example": "His record is clean as a whistle—no issues found."
+        },
+        {
+            "term": "Clear as mud",
+            "meaning": "Something confusing or unclear",
+            "hindi_meaning": "कीचड़ की तरह साफ",
+            "example": "His instructions were clear as mud, so we were confused."
+        },
+        {
+            "term": "Clutch at straws",
+            "meaning": "To desperately try anything to solve a problem",
+            "hindi_meaning": "तिनकों का सहारा लेना",
+            "example": "She was clutching at straws to save the failing business."
+        },
+        {
+            "term": "Cold shoulder",
+            "meaning": "To deliberately ignore or be unfriendly",
+            "hindi_meaning": "ठंडा कंधा",
+            "example": "He gave her the cold shoulder after their argument."
+        },
+        {
+            "term": "Come up roses",
+            "meaning": "To turn out very well",
+            "hindi_meaning": "गुलाब की तरह खिलना",
+            "example": "Her risky decision came up roses in the end."
+        },
+        {
+            "term": "Cook someone’s goose",
+            "meaning": "To ruin someone’s plans or chances",
+            "hindi_meaning": "किसी का हंस पकाना",
+            "example": "His mistake cooked his goose during the competition."
+        },
+        {
+            "term": "Costs an arm and a leg",
+            "meaning": "Something very expensive",
+            "hindi_meaning": "हाथ-पैर खर्च करना",
+            "example": "That phone costs an arm and a leg!"
+        },
+        {
+            "term": "Crack of dawn",
+            "meaning": "Very early in the morning",
+            "hindi_meaning": "भोर का समय",
+            "example": "She woke up at the crack of dawn to study."
+        },
+        {
+            "term": "Cross your fingers",
+            "meaning": "To wish for good luck",
+            "hindi_meaning": "उंगलियां क्रॉस करना",
+            "example": "Cross your fingers for my exam results!"
+        },
+        {
+            "term": "Cut corners",
+            "meaning": "To do something cheaply or quickly, often poorly",
+            "hindi_meaning": "कोनों को काटना",
+            "example": "They cut corners on the project, and it failed."
+        },
+        {
+            "term": "Caught with your pants down",
+            "meaning": "To be caught unprepared or in an embarrassing situation",
+            "hindi_meaning": "पैंट नीचे पकड़ा जाना",
+            "example": "He was caught with his pants down when the boss asked for the report."
+        },
+        {
+            "term": "Chip off the old block",
+            "meaning": "Someone who resembles their parent in behavior or appearance",
+            "hindi_meaning": "पुराने ब्लॉक का टुकड़ा",
+            "example": "He’s just like his dad—a chip off the old block."
+        },
+        {
+            "term": "Close shave",
+            "meaning": "A narrow escape from danger or failure",
+            "hindi_meaning": "नजदीकी बचाव",
+            "example": "That was a close shave—he almost missed the deadline."
+        },
+        {
+            "term": "Cloud nine",
+            "meaning": "A state of extreme happiness",
+            "hindi_meaning": "नौवें बादल पर",
+            "example": "She was on cloud nine after getting the job."
+        },
+        {
+            "term": "Cock and bull story",
+            "meaning": "An unbelievable or absurd tale",
+            "hindi_meaning": "मुर्गा और बैल की कहानी",
+            "example": "His excuse was a cock and bull story."
+        },
+        {
+            "term": "Come clean",
+            "meaning": "To confess or tell the truth",
+            "hindi_meaning": "साफ आना",
+            "example": "He finally came clean about the mistake."
+        },
+        {
+            "term": "Cut from the same cloth",
+            "meaning": "Very similar in character or behavior",
+            "hindi_meaning": "एक ही कपड़े से काटा गया",
+            "example": "They’re so alike—cut from the same cloth."
+        },
+        {
+            "term": "Can’t judge a book by its cover",
+            "meaning": "You can’t judge someone’s worth by their appearance",
+            "hindi_meaning": "किताब को उसके कवर से नहीं आंक सकते",
+            "example": "He looks ordinary but is brilliant—you can’t judge a book by its cover."
+        },
+        {
+            "term": "Cast the first stone",
+            "meaning": "To be the first to criticize or accuse",
+            "hindi_meaning": "पहला पत्थर फेंकना",
+            "example": "Before you blame her, who are you to cast the first stone?"
+        },
+        {
+            "term": "Damned if you do, damned if you don’t",
+            "meaning": "You’ll face criticism or trouble no matter what choice you make",
+            "hindi_meaning": "करो तो बुरा, न करो तो बुरा",
+            "example": "If I help, I’m meddling; if I don’t, I’m selfish—damned if you do, damned if you don’t."
+        },
+        {
+            "term": "Dead as a doornail",
+            "meaning": "Completely dead or lifeless",
+            "hindi_meaning": "दरवाजे की कील की तरह मृत",
+            "example": "The old phone was dead as a doornail after the fall."
+        },
+        {
+            "term": "Devil’s advocate",
+            "meaning": "To argue against something to test its validity",
+            "hindi_meaning": "शैतान का वकील",
+            "example": "She played devil’s advocate to challenge the plan’s flaws."
+        },
+        {
+            "term": "Don’t bite the hand that feeds you",
+            "meaning": "Don’t harm those who help or support you",
+            "hindi_meaning": "उस हाथ को मत काटो जो तुम्हें खिलाता है",
+            "example": "He criticized his boss, forgetting not to bite the hand that feeds him."
+        },
+        {
+            "term": "Don’t count your chickens before they hatch",
+            "meaning": "Don’t assume success before it happens",
+            "hindi_meaning": "अंडे निकलने से पहले मुर्गियों की गिनती मत करो",
+            "example": "She planned the party before winning—don’t count your chickens before they hatch."
+        },
+        {
+            "term": "Don’t cry over spilled milk",
+            "meaning": "Don’t regret what cannot be undone",
+            "hindi_meaning": "गिरे हुए दूध पर मत रोओ",
+            "example": "The mistake is done—don’t cry over spilled milk."
+        },
+        {
+            "term": "Don’t judge a book by its cover",
+            "meaning": "Don’t judge someone or something by appearance alone",
+            "hindi_meaning": "किताब को उसके कवर से मत आंको",
+            "example": "He looks rough but is kind—don’t judge a book by its cover."
+        },
+        {
+            "term": "Don’t look a gift horse in the mouth",
+            "meaning": "Don’t question the value of something given freely",
+            "hindi_meaning": "उपहार के घोड़े के मुंह में मत देखो",
+            "example": "She complained about the free ticket—don’t look a gift horse in the mouth."
+        },
+        {
+            "term": "Don’t put all your eggs in one basket",
+            "meaning": "Don’t risk everything on a single venture",
+            "hindi_meaning": "सारे अंडे एक टोकरी में मत रखो",
+            "example": "He invested in multiple stocks—don’t put all your eggs in one basket."
+        },
+        {
+            "term": "Don’t throw the baby out with the bathwater",
+            "meaning": "Don’t discard something valuable while getting rid of the bad",
+            "hindi_meaning": "नहाने के पानी के साथ बच्चे को मत फेंको",
+            "example": "Keep the good ideas while revising—don’t throw the baby out with the bathwater."
+        },
+        {
+            "term": "Down to the wire",
+            "meaning": "Until the very last moment",
+            "hindi_meaning": "आखिरी पल तक",
+            "example": "The project went down to the wire before completion."
+        },
+        {
+            "term": "Draw a line in the sand",
+            "meaning": "To set a clear boundary or limit",
+            "hindi_meaning": "रेत में रेखा खींचना",
+            "example": "She drew a line in the sand about working late hours."
+        },
+        {
+            "term": "Drop in the ocean",
+            "meaning": "A very small amount compared to what is needed",
+            "hindi_meaning": "समुद्र में बूंद",
+            "example": "Her donation was a drop in the ocean for the charity."
+        },
+        {
+            "term": "Drunk as a skunk",
+            "meaning": "Extremely intoxicated",
+            "hindi_meaning": "स्कंक की तरह नशे में",
+            "example": "He was drunk as a skunk after the party."
+        },
+        {
+            "term": "Don’t beat a dead horse",
+            "meaning": "Don’t waste effort on a hopeless cause",
+            "hindi_meaning": "मरे हुए घोड़े को मत पीटो",
+            "example": "Arguing further is pointless—don’t beat a dead horse."
+        },
+        {
+            "term": "Don’t hold your breath",
+            "meaning": "Don’t expect something to happen soon",
+            "hindi_meaning": "सांस मत रोको",
+            "example": "He said he’d pay soon, but don’t hold your breath."
+        },
+        {
+            "term": "Don’t make a mountain out of a molehill",
+            "meaning": "Don’t exaggerate a small problem",
+            "hindi_meaning": "छछूंदर के टीले से पहाड़ मत बनाओ",
+            "example": "It’s a minor issue—don’t make a mountain out of a molehill."
+        },
+        {
+            "term": "Don’t put the cart before the horse",
+            "meaning": "Do things in the proper order",
+            "hindi_meaning": "गाड़ी को घोड़े के सामने मत रखो",
+            "example": "Plan first, then act—don’t put the cart before the horse."
+        },
+        {
+            "term": "Drive someone up the wall",
+            "meaning": "To annoy or frustrate someone greatly",
+            "hindi_meaning": "किसी को दीवार पर चढ़ाना",
+            "example": "His constant complaints drive me up the wall."
+        },
+        {
+            "term": "Dog eat dog",
+            "meaning": "A situation where people compete ruthlessly",
+            "hindi_meaning": "कुत्ता कुत्ते को खाता है",
+            "example": "The business world can be dog eat dog."
+        },
+        {
+            "term": "Early bird catches the worm",
+            "meaning": "The person who acts first gets the advantage",
+            "hindi_meaning": "जल्दी उठने वाला पक्षी कीड़ा पकड़ता है",
+            "example": "She arrived first and got the best deal—the early bird catches the worm."
+        },
+        {
+            "term": "Easy come, easy go",
+            "meaning": "Things gained easily are lost easily",
+            "hindi_meaning": "आसानी से आया, आसानी से गया",
+            "example": "He won money gambling but spent it fast—easy come, easy go."
+        },
+        {
+            "term": "Eat your heart out",
+            "meaning": "To feel envy or jealousy",
+            "hindi_meaning": "अपना दिल खाओ",
+            "example": "Look at my new car—eat your heart out!"
+        },
+        {
+            "term": "Eggs in one basket",
+            "meaning": "Risking everything on one venture",
+            "hindi_meaning": "सारे अंडे एक टोकरी में",
+            "example": "Don’t invest all your money in one stock—eggs in one basket."
+        },
+        {
+            "term": "Elephant in the room",
+            "meaning": "An obvious problem everyone ignores",
+            "hindi_meaning": "कमरे में हाथी",
+            "example": "Their argument was the elephant in the room at the meeting."
+        },
+        {
+            "term": "Every cloud has a silver lining",
+            "meaning": "There is something positive in every bad situation",
+            "hindi_meaning": "हर बादल में चांदी की परत होती है",
+            "example": "Losing the job led to a better one—every cloud has a silver lining."
+        },
+        {
+            "term": "Every dog has its day",
+            "meaning": "Everyone gets a moment of success",
+            "hindi_meaning": "हर कुत्ते का दिन आता है",
+            "example": "He finally won after years—every dog has its day."
+        },
+        {
+            "term": "Every man for himself",
+            "meaning": "Everyone looks out for their own interests",
+            "hindi_meaning": "हर व्यक्ति अपने लिए",
+            "example": "In the crisis, it was every man for himself."
+        },
+        {
+            "term": "Eye for an eye",
+            "meaning": "Retaliation in kind for a wrong done",
+            "hindi_meaning": "आंख के बदले आंख",
+            "example": "He insulted her, so she insulted him—an eye for an eye."
+        },
+        {
+            "term": "Easier said than done",
+            "meaning": "Something is harder to do than to talk about",
+            "hindi_meaning": "कहना आसान, करना मुश्किल",
+            "example": "Quitting smoking is easier said than done."
+        },
+        {
+            "term": "Empty vessels make the most noise",
+            "meaning": "Those with little knowledge talk the most",
+            "hindi_meaning": "खाली बर्तन सबसे ज्यादा शोर करते हैं",
+            "example": "He brags a lot but knows little—empty vessels make the most noise."
+        },
+        {
+            "term": "Even a broken clock is right twice a day",
+            "meaning": "Even unreliable people can be correct sometimes",
+            "hindi_meaning": "टूटी घड़ी भी दिन में दो बार सही होती है",
+            "example": "His guess was right for once—even a broken clock is right twice a day."
+        },
+        {
+            "term": "Every rose has its thorn",
+            "meaning": "Every good thing has a downside",
+            "hindi_meaning": "हर गुलाब में कांटा होता है",
+            "example": "The job pays well but is stressful—every rose has its thorn."
+        },
+        {
+            "term": "Eat humble pie",
+            "meaning": "To admit you were wrong and apologize",
+            "hindi_meaning": "नम्रता का पाई खाना",
+            "example": "He had to eat humble pie after his mistake."
+        },
+        {
+            "term": "End of the rope",
+            "meaning": "Having no more options or patience",
+            "hindi_meaning": "रस्सी का अंत",
+            "example": "She’s at the end of her rope with his behavior."
+        },
+        {
+            "term": "Everything but the kitchen sink",
+            "meaning": "Including almost everything possible",
+            "hindi_meaning": "रसोई के सिंक को छोड़कर सब कुछ",
+            "example": "She packed everything but the kitchen sink for the trip."
+        },
+        {
+            "term": "Faint heart never won fair lady",
+            "meaning": "Courage is needed to achieve great things",
+            "hindi_meaning": "कमजोर दिल ने कभी सुंदर स्त्री नहीं जीती",
+            "example": "He asked her out boldly—faint heart never won fair lady."
+        },
+        {
+            "term": "Familiarity breeds contempt",
+            "meaning": "Knowing someone too well can lead to disrespect",
+            "hindi_meaning": "परिचय तिरस्कार पैदा करता है",
+            "example": "They were close but now argue—familiarity breeds contempt."
+        },
+        {
+            "term": "Finders keepers, losers weepers",
+            "meaning": "Whoever finds something can keep it",
+            "hindi_meaning": "पाने वाला रखता है, हारने वाला रोता है",
+            "example": "She found the ring and kept it—finders keepers, losers weepers."
+        },
+        {
+            "term": "Fish out of water",
+            "meaning": "Someone who feels uncomfortable in an unfamiliar situation",
+            "hindi_meaning": "पानी से बाहर मछली",
+            "example": "He felt like a fish out of water at the formal event."
+        },
+        {
+            "term": "Fit as a fiddle",
+            "meaning": "In very good health",
+            "hindi_meaning": "सितार की तरह फिट",
+            "example": "She runs daily and is fit as a fiddle."
+        },
+        {
+            "term": "Flash in the pan",
+            "meaning": "Something that seems promising but fails quickly",
+            "hindi_meaning": "तवे में चमक",
+            "example": "His startup was a flash in the pan."
+        },
+        {
+            "term": "Fool me once, shame on you; fool me twice, shame on me",
+            "meaning": "You shouldn’t be fooled by the same trick twice",
+            "hindi_meaning": "मुझे एक बार मूर्ख बनाओ, शर्म तुम पर; दो बार बनाओ, शर्म मुझ पर",
+            "example": "He lied again, but I won’t fall for it—fool me once, shame on you; fool me twice, shame on me."
+        },
+        {
+            "term": "Forbidden fruit is the sweetest",
+            "meaning": "Things that are off-limits are often more desirable",
+            "hindi_meaning": "निषिद्ध फल सबसे मीठा होता है",
+            "example": "She wanted the restricted area more—forbidden fruit is the sweetest."
+        },
+        {
+            "term": "From the frying pan into the fire",
+            "meaning": "Going from a bad situation to a worse one",
+            "hindi_meaning": "तवे से आग में",
+            "example": "He left a bad job for a worse one—from the frying pan into the fire."
+        },
+        {
+            "term": "Full steam ahead",
+            "meaning": "To proceed with maximum effort",
+            "hindi_meaning": "पूरी भाप के साथ आगे",
+            "example": "The team went full steam ahead on the project."
+        },
+        {
+            "term": "Face the music",
+            "meaning": "To accept the consequences of your actions",
+            "hindi_meaning": "संगीत का सामना करना",
+            "example": "He made a mistake and had to face the music."
+        },
+        {
+            "term": "Fall by the wayside",
+            "meaning": "To fail or give up on something",
+            "hindi_meaning": "रास्ते में गिरना",
+            "example": "Many competitors fell by the wayside in the race."
+        },
+        {
+            "term": "Feather in your cap",
+            "meaning": "An achievement to be proud of",
+            "hindi_meaning": "आपकी टोपी में पंख",
+            "example": "Winning the award was a feather in her cap."
+        },
+        {
+            "term": "Feet of clay",
+            "meaning": "A hidden flaw or weakness in someone admired",
+            "hindi_meaning": "मिट्टी के पैर",
+            "example": "The hero had feet of clay with his secret scandals."
+        },
+        {
+            "term": "Fight fire with fire",
+            "meaning": "To use the same tactics as your opponent",
+            "hindi_meaning": "आग से आग लड़ना",
+            "example": "They fought his lies with their own strategy—fight fire with fire."
+        },
+        {
+            "term": "Fool’s paradise",
+            "meaning": "A state of happiness based on false hopes",
+            "hindi_meaning": "मूर्ख का स्वर्ग",
+            "example": "He thought he’d win easily, living in a fool’s paradise."
+        },
+        {
+            "term": "Forewarned is forearmed",
+            "meaning": "Being warned in advance prepares you to act",
+            "hindi_meaning": "पहले से चेतावनी दी गई तो तैयार रहो",
+            "example": "She studied extra after the warning—forewarned is forearmed."
+        },
+        {
+            "term": "Get a taste of your own medicine",
+            "meaning": "To experience the same negative treatment you gave others",
+            "hindi_meaning": "अपनी ही दवा का स्वाद लेना",
+            "example": "He was mean to others, now he’s getting a taste of his own medicine."
+        },
+        {
+            "term": "Get your act together",
+            "meaning": "To organize yourself and start performing better",
+            "hindi_meaning": "अपना काम संभालो",
+            "example": "You need to get your act together before the deadline."
+        },
+        {
+            "term": "Give someone the benefit of the doubt",
+            "meaning": "To believe someone’s intentions are good despite uncertainty",
+            "hindi_meaning": "किसी को संदेह का लाभ देना",
+            "example": "I gave her the benefit of the doubt when she arrived late."
+        },
+        {
+            "term": "Go the extra mile",
+            "meaning": "To make an extra effort to achieve something",
+            "hindi_meaning": "अतिरिक्त मील जाना",
+            "example": "She went the extra mile to make the event perfect."
+        },
+        {
+            "term": "Good things come in small packages",
+            "meaning": "Valuable things can come in small forms",
+            "hindi_meaning": "अच्छी चीजें छोटे पैकेज में आती हैं",
+            "example": "The tiny gift was precious—good things come in small packages."
+        },
+        {
+            "term": "Great minds think alike",
+            "meaning": "Intelligent people often have similar ideas",
+            "hindi_meaning": "महान दिमाग एक जैसा सोचते हैं",
+            "example": "We both suggested the same plan—great minds think alike."
+        },
+        {
+            "term": "Grin and bear it",
+            "meaning": "To endure a difficult situation with a smile",
+            "hindi_meaning": "मुस्कुराकर सहन करना",
+            "example": "The job was tough, but she grinned and bore it."
+        },
+        {
+            "term": "Give the devil his due",
+            "meaning": "To acknowledge someone’s good qualities, even if you dislike them",
+            "hindi_meaning": "शैतान को उसका हक देना",
+            "example": "He’s dishonest, but give the devil his due—he’s talented."
+        },
+        {
+            "term": "Go down like a lead balloon",
+            "meaning": "To fail or be received poorly",
+            "hindi_meaning": "सीसे के गुब्बारे की तरह गिरना",
+            "example": "His joke went down like a lead balloon at the party."
+        },
+        {
+            "term": "Go for broke",
+            "meaning": "To risk everything for a goal",
+            "hindi_meaning": "सब कुछ दांव पर लगाना",
+            "example": "He went for broke with his new business venture."
+        },
+        {
+            "term": "God helps those who help themselves",
+            "meaning": "You must make an effort to achieve success",
+            "hindi_meaning": "भगवान उनकी मदद करता है जो अपनी मदद करते हैं",
+            "example": "She worked hard and succeeded—God helps those who help themselves."
+        },
+        {
+            "term": "Gone with the wind",
+            "meaning": "Something that has disappeared or is lost forever",
+            "hindi_meaning": "हवा के साथ चला गया",
+            "example": "His savings were gone with the wind after bad investments."
+        },
+        {
+            "term": "Grab the bull by the horns",
+            "meaning": "To face a problem directly with courage",
+            "hindi_meaning": "सांड को सींगों से पकड़ना",
+            "example": "She grabbed the bull by the horns and addressed the issue."
+        },
+        {
+            "term": "Grass is always greener on the other side",
+            "meaning": "Other situations often seem better than your own",
+            "hindi_meaning": "दूसरी तरफ की घास हमेशा हरी होती है",
+            "example": "He envied their lifestyle, but the grass is always greener on the other side."
+        },
+        {
+            "term": "Get off on the wrong foot",
+            "meaning": "To start a relationship or task poorly",
+            "hindi_meaning": "गलत पैर पर शुरू करना",
+            "example": "They got off on the wrong foot with a misunderstanding."
+        },
+        {
+            "term": "Give an inch, they’ll take a mile",
+            "meaning": "If you give someone a small concession, they’ll demand more",
+            "hindi_meaning": "एक इंच दो, वे मील ले लेंगे",
+            "example": "I lent him money once, and now he asks daily—give an inch, they’ll take a mile."
+        },
+        {
+            "term": "Go out on a limb",
+            "meaning": "To take a risk or make a bold move",
+            "hindi_meaning": "टहनी पर चढ़ना",
+            "example": "She went out on a limb to support his idea."
+        },
+        {
+            "term": "Get your ducks in a row",
+            "meaning": "To get organized and prepared",
+            "hindi_meaning": "अपने बत्तखों को पंक्ति में करना",
+            "example": "Get your ducks in a row before the presentation."
+        },
+        {
+            "term": "Give it your all",
+            "meaning": "To put in maximum effort",
+            "hindi_meaning": "अपना सब कुछ देना",
+            "example": "He gave it his all to win the race."
+        },
+        {
+            "term": "Get cold feet",
+            "meaning": "To become nervous or hesitant about something",
+            "hindi_meaning": "पैर ठंडे पड़ना",
+            "example": "She got cold feet before the big speech."
+        },
+        {
+            "term": "Go against the grain",
+            "meaning": "To act contrary to what is expected",
+            "hindi_meaning": "रुख के खिलाफ जाना",
+            "example": "He went against the grain by choosing a different career."
+        },
+        {
+            "term": "Get a second wind",
+            "meaning": "To regain energy after being tired",
+            "hindi_meaning": "दूसरी सांस लेना",
+            "example": "After a break, she got a second wind and finished the work."
+        },
+        {
+            "term": "Give the cold shoulder",
+            "meaning": "To deliberately ignore or be unfriendly",
+            "hindi_meaning": "ठंडा कंधा देना",
+            "example": "He gave her the cold shoulder after their argument."
+        },
+        {
+            "term": "Goody two-shoes",
+            "meaning": "Someone who is overly good or proper",
+            "hindi_meaning": "अति अच्छा व्यक्ति",
+            "example": "She’s such a goody two-shoes, always following rules."
+        },
+        {
+            "term": "Get the ball rolling",
+            "meaning": "To start something",
+            "hindi_meaning": "गेंद लुढ़काना शुरू करना",
+            "example": "Let’s get the ball rolling on this project."
+        },
+        {
+            "term": "Green with envy",
+            "meaning": "Extremely jealous",
+            "hindi_meaning": "ईर्ष्या से हरा होना",
+            "example": "He was green with envy over her promotion."
+        },
+        {
+            "term": "Give someone a piece of your mind",
+            "meaning": "To angrily express your opinion to someone",
+            "hindi_meaning": "किसी को अपने मन की बात कहना",
+            "example": "She gave him a piece of her mind for being rude."
+        },
+        {
+            "term": "Get out of hand",
+            "meaning": "To become uncontrollable",
+            "hindi_meaning": "हाथ से बाहर निकलना",
+            "example": "The party got out of hand with too many guests."
+        },
+        {
+            "term": "Go with the flow",
+            "meaning": "To adapt to the situation",
+            "hindi_meaning": "प्रवाह के साथ जाना",
+            "example": "She didn’t plan much, just went with the flow."
+        },
+        {
+            "term": "Get your foot in the door",
+            "meaning": "To gain an initial opportunity",
+            "hindi_meaning": "दरवाजे में पैर रखना",
+            "example": "The internship helped her get her foot in the door."
+        },
+        {
+            "term": "Give as good as you get",
+            "meaning": "To respond to an attack with equal force",
+            "hindi_meaning": "जैसा मिले वैसा देना",
+            "example": "She argued back fiercely—giving as good as she got."
+        },
+        {
+            "term": "Get the short end of the stick",
+            "meaning": "To receive an unfair or lesser outcome",
+            "hindi_meaning": "छड़ी का छोटा सिरा पाना",
+            "example": "He got the short end of the stick in the deal."
+        },
+        {
+            "term": "Go belly up",
+            "meaning": "To fail or go bankrupt",
+            "hindi_meaning": "पेट के बल गिरना",
+            "example": "The company went belly up after bad decisions."
+        },
+        {
+            "term": "Get wind of something",
+            "meaning": "To hear about something secretly or indirectly",
+            "hindi_meaning": "किसी बात की भनक पाना",
+            "example": "She got wind of the surprise party."
+        },
+        {
+            "term": "Give the slip",
+            "meaning": "To escape or avoid someone",
+            "hindi_meaning": "चकमा देना",
+            "example": "He gave the police the slip during the chase."
+        },
+        {
+            "term": "Glass half full",
+            "meaning": "An optimistic outlook",
+            "hindi_meaning": "गिलास आधा भरा",
+            "example": "Despite setbacks, she sees the glass half full."
+        },
+        {
+            "term": "Go down in flames",
+            "meaning": "To fail spectacularly",
+            "hindi_meaning": "आग में जलकर खाक होना",
+            "example": "His risky plan went down in flames."
+        },
+        {
+            "term": "Get a leg up",
+            "meaning": "To gain an advantage",
+            "hindi_meaning": "एक कदम आगे बढ़ना",
+            "example": "Her skills gave her a leg up in the competition."
+        },
+        {
+            "term": "Give your right arm",
+            "meaning": "To be willing to sacrifice greatly for something",
+            "hindi_meaning": "अपना दाहिना हाथ देना",
+            "example": "She’d give her right arm for that opportunity."
+        },
+        {
+            "term": "Go to the dogs",
+            "meaning": "To decline or deteriorate",
+            "hindi_meaning": "कुत्तों के पास जाना",
+            "example": "The neighborhood has gone to the dogs lately."
+        },
+        {
+            "term": "Haste makes waste",
+            "meaning": "Hurrying can lead to mistakes and wasted effort",
+            "hindi_meaning": "जल्दबाजी से बर्बादी होती है",
+            "example": "He rushed the job and ruined it—haste makes waste."
+        },
+        {
+            "term": "Have your cake and eat it too",
+            "meaning": "Wanting two desirable but mutually exclusive things",
+            "hindi_meaning": "केक रखना और खाना भी",
+            "example": "You can’t work and travel all the time—you can’t have your cake and eat it too."
+        },
+        {
+            "term": "Head over heels",
+            "meaning": "To be deeply in love or very excited",
+            "hindi_meaning": "सिर के बल गिरना",
+            "example": "She’s head over heels for her new partner."
+        },
+        {
+            "term": "Hit the nail on the head",
+            "meaning": "To be exactly right about something",
+            "hindi_meaning": "कील पर सिर मारना",
+            "example": "You hit the nail on the head with that analysis."
+        },
+        {
+            "term": "Hold your horses",
+            "meaning": "To wait or slow down",
+            "hindi_meaning": "अपने घोड़ों को रोको",
+            "example": "Hold your horses—let’s plan before acting."
+        },
+        {
+            "term": "Home is where the heart is",
+            "meaning": "Your true home is where you feel most comfortable",
+            "hindi_meaning": "घर वहां है जहां दिल है",
+            "example": "She feels at peace here—home is where the heart is."
+        },
+        {
+            "term": "Honesty is the best policy",
+            "meaning": "Being truthful is the best approach",
+            "hindi_meaning": "ईमानदारी सर्वश्रेष्ठ नीति है",
+            "example": "He told the truth—honesty is the best policy."
+        },
+        {
+            "term": "Hope for the best, prepare for the worst",
+            "meaning": "Be optimistic but ready for bad outcomes",
+            "hindi_meaning": "सर्वश्रेष्ठ की आशा करो, सबसे बुरे के लिए तैयार रहो",
+            "example": "She studied hard but brought notes—hope for the best, prepare for the worst."
+        },
+        {
+            "term": "Hot potato",
+            "meaning": "A controversial or difficult issue",
+            "hindi_meaning": "गर्म आलू",
+            "example": "The topic was a hot potato nobody wanted to discuss."
+        },
+        {
+            "term": "Hit the ground running",
+            "meaning": "To start something quickly and effectively",
+            "hindi_meaning": "जमीन पर दौड़ते हुए शुरू करना",
+            "example": "She hit the ground running in her new job."
+        },
+        {
+            "term": "Horses for courses",
+            "meaning": "Different people are suited for different tasks",
+            "hindi_meaning": "घोड़ों के लिए कोर्स",
+            "example": "He’s great at math, not art—horses for courses."
+        },
+        {
+            "term": "He who laughs last laughs best",
+            "meaning": "The one who succeeds in the end has the best outcome",
+            "hindi_meaning": "जो आखिरी में हंसता है, वह सबसे अच्छा हंसता है",
+            "example": "They mocked him, but he won—he who laughs last laughs best."
+        },
+        {
+            "term": "Hang in there",
+            "meaning": "To persevere through difficulties",
+            "hindi_meaning": "डटे रहो",
+            "example": "It’s tough, but hang in there—you’ll get through."
+        },
+        {
+            "term": "Have a chip on your shoulder",
+            "meaning": "To hold a grudge or feel resentful",
+            "hindi_meaning": "कंधे पर चिप रखना",
+            "example": "He’s upset about the past—has a chip on his shoulder."
+        },
+        {
+            "term": "High time",
+            "meaning": "The right moment to act, overdue",
+            "hindi_meaning": "उचित समय",
+            "example": "It’s high time you started studying for the exam."
+        },
+        {
+            "term": "Hit the jackpot",
+            "meaning": "To achieve great success or win a big prize",
+            "hindi_meaning": "जैकपॉट मारना",
+            "example": "She hit the jackpot with her new business."
+        },
+        {
+            "term": "Hold the fort",
+            "meaning": "To take responsibility in someone’s absence",
+            "hindi_meaning": "किला संभालना",
+            "example": "He held the fort while the boss was away."
+        },
+        {
+            "term": "Hit below the belt",
+            "meaning": "To act unfairly or cruelly",
+            "hindi_meaning": "कमर के नीचे मारना",
+            "example": "His personal attack was hitting below the belt."
+        },
+        {
+            "term": "Have your head in the clouds",
+            "meaning": "To be unrealistic or daydreaming",
+            "hindi_meaning": "सिर बादलों में होना",
+            "example": "Stop dreaming and focus—you have your head in the clouds."
+        },
+        {
+            "term": "Hard nut to crack",
+            "meaning": "A difficult problem or person to deal with",
+            "hindi_meaning": "कठिन अखरोट",
+            "example": "Convincing her was a hard nut to crack."
+        },
+        {
+            "term": "Heart of gold",
+            "meaning": "A kind and generous nature",
+            "hindi_meaning": "सोने का दिल",
+            "example": "She’s tough but has a heart of gold."
+        },
+        {
+            "term": "Hit the hay",
+            "meaning": "To go to bed",
+            "hindi_meaning": "घास पर सोना",
+            "example": "I’m exhausted—time to hit the hay."
+        },
+        {
+            "term": "Hands are tied",
+            "meaning": "Unable to act due to restrictions",
+            "hindi_meaning": "हाथ बंधे हैं",
+            "example": "I’d help, but my hands are tied by the rules."
+        },
+        {
+            "term": "Head in the sand",
+            "meaning": "Ignoring a problem hoping it will go away",
+            "hindi_meaning": "रेत में सिर छिपाना",
+            "example": "Ignoring the issue is like putting your head in the sand."
+        },
+        {
+            "term": "Hell in a handbasket",
+            "meaning": "Rapidly deteriorating or heading for disaster",
+            "hindi_meaning": "टोकरी में नरक",
+            "example": "The project is going to hell in a handbasket."
+        },
+        {
+            "term": "Here today, gone tomorrow",
+            "meaning": "Something temporary or fleeting",
+            "hindi_meaning": "आज यहाँ, कल चला गया",
+            "example": "His fame was here today, gone tomorrow."
+        },
+        {
+            "term": "Hide your light under a bushel",
+            "meaning": "To conceal your talents or abilities",
+            "hindi_meaning": "अपनी रोशनी को टोकरी के नीचे छिपाना",
+            "example": "She’s talented but hides her light under a bushel."
+        },
+        {
+            "term": "Hold your tongue",
+            "meaning": "To stay silent",
+            "hindi_meaning": "अपनी जीभ रोकना",
+            "example": "Hold your tongue and don’t argue now."
+        },
+        {
+            "term": "Hitch your wagon to a star",
+            "meaning": "To aim high or aspire greatly",
+            "hindi_meaning": "अपनी गाड़ी को तारे से जोड़ना",
+            "example": "She aimed big—hitched her wagon to a star."
+        },
+        {
+            "term": "Have an axe to grind",
+            "meaning": "To have a personal motive or grievance",
+            "hindi_meaning": "कुल्हाड़ी पीसने की बात",
+            "example": "He criticized her, but he has an axe to grind."
+        },
+        {
+            "term": "Ignorance is bliss",
+            "meaning": "Not knowing something can keep you happier",
+            "hindi_meaning": "अज्ञानता सुख है",
+            "example": "She didn’t know the bad news—ignorance is bliss."
+        },
+        {
+            "term": "In for a penny, in for a pound",
+            "meaning": "If you start something, commit fully",
+            "hindi_meaning": "एक पैसे के लिए, एक पाउंड के लिए",
+            "example": "He joined the project—in for a penny, in for a pound."
+        },
+        {
+            "term": "It takes two to tango",
+            "meaning": "Both parties are responsible in a situation",
+            "hindi_meaning": "टैंगो के लिए दो चाहिए",
+            "example": "They both argued—it takes two to tango."
+        },
+        {
+            "term": "If the shoe fits, wear it",
+            "meaning": "Accept the truth if it applies to you",
+            "hindi_meaning": "अगर जूता फिट हो, तो पहनो",
+            "example": "He got defensive, but if the shoe fits, wear it."
+        },
+        {
+            "term": "In the heat of the moment",
+            "meaning": "Acting impulsively due to strong emotions",
+            "hindi_meaning": "गर्मी के पल में",
+            "example": "She shouted in the heat of the moment."
+        },
+        {
+            "term": "It’s a small world",
+            "meaning": "Meeting someone unexpectedly in a connected world",
+            "hindi_meaning": "यह छोटी सी दुनिया है",
+            "example": "I met my old friend abroad—it’s a small world."
+        },
+        {
+            "term": "In the nick of time",
+            "meaning": "Just in time to avoid a problem",
+            "hindi_meaning": "सही समय पर",
+            "example": "He arrived in the nick of time to catch the train."
+        },
+        {
+            "term": "If it ain’t broke, don’t fix it",
+            "meaning": "Don’t change something that works well",
+            "hindi_meaning": "अगर टूटा नहीं है, तो ठीक मत करो",
+            "example": "The system works fine—if it ain’t broke, don’t fix it."
+        },
+        {
+            "term": "It’s not rocket science",
+            "meaning": "Something is not very complicated",
+            "hindi_meaning": "यह रॉकेट विज्ञान नहीं है",
+            "example": "The task is simple—it’s not rocket science."
+        },
+        {
+            "term": "In over your head",
+            "meaning": "Taking on more than you can handle",
+            "hindi_meaning": "सिर के ऊपर होना",
+            "example": "He took on a big project and is in over his head."
+        },
+        {
+            "term": "It’s the last straw",
+            "meaning": "The final problem that makes a situation unbearable",
+            "hindi_meaning": "यह आखिरी तिनका है",
+            "example": "His lateness was the last straw for the team."
+        },
+        {
+            "term": "Idle hands are the devil’s workshop",
+            "meaning": "Being idle can lead to trouble",
+            "hindi_meaning": "खाली हाथ शैतान की कार्यशाला हैं",
+            "example": "Keep kids busy—idle hands are the devil’s workshop."
+        },
+        {
+            "term": "In the doghouse",
+            "meaning": "In trouble or disfavor",
+            "hindi_meaning": "कुत्ते के घर में",
+            "example": "He forgot her birthday and is in the doghouse."
+        },
+        {
+            "term": "It never rains but it pours",
+            "meaning": "Problems often come all at once",
+            "hindi_meaning": "कभी बारिश नहीं होती, लेकिन जब होती है तो मूसलाधार होती है",
+            "example": "First the car broke, then the job loss—it never rains but it pours."
+        },
+        {
+            "term": "In a nutshell",
+            "meaning": "To summarize briefly",
+            "hindi_meaning": "संक्षेप में",
+            "example": "In a nutshell, we need more funding."
+        },
+        {
+            "term": "Iron sharpens iron",
+            "meaning": "People improve by working with others of equal skill",
+            "hindi_meaning": "लोहा लोहे को तेज करता है",
+            "example": "They pushed each other to excel—iron sharpens iron."
+        },
+        {
+            "term": "It’s all Greek to me",
+            "meaning": "Something is incomprehensible",
+            "hindi_meaning": "यह सब मेरे लिए यूनानी है",
+            "example": "The technical manual is all Greek to me."
+        },
+        {
+            "term": "In the same boat",
+            "meaning": "In the same difficult situation",
+            "hindi_meaning": "एक ही नाव में",
+            "example": "We’re all struggling—we’re in the same boat."
+        },
+        {
+            "term": "If wishes were horses, beggars would ride",
+            "meaning": "Wishing doesn’t make things happen",
+            "hindi_meaning": "अगर इच्छाएं घोड़े होतीं, तो भिखारी सवारी करते",
+            "example": "He dreams of wealth, but if wishes were horses, beggars would ride."
+        },
+        {
+            "term": "In the blink of an eye",
+            "meaning": "Very quickly or suddenly",
+            "hindi_meaning": "पलक झपकते ही",
+            "example": "The opportunity vanished in the blink of an eye."
+        },
+        {
+            "term": "It takes one to know one",
+            "meaning": "Only someone with a trait can recognize it in others",
+            "hindi_meaning": "एक को पहचानने के लिए एक चाहिए",
+            "example": "You call me stubborn? It takes one to know one."
+        },
+        {
+            "term": "Jack of all trades, master of none",
+            "meaning": "Someone who can do many things but isn’t an expert in any",
+            "hindi_meaning": "सब काम का, किसी का नहीं",
+            "example": "He tries everything but excels at nothing—jack of all trades, master of none."
+        },
+        {
+            "term": "Jump on the bandwagon",
+            "meaning": "To join a popular trend or activity",
+            "hindi_meaning": "बैंडवैगन पर कूदना",
+            "example": "Everyone’s buying that phone, so she jumped on the bandwagon."
+        },
+        {
+            "term": "Just what the doctor ordered",
+            "meaning": "Exactly what is needed",
+            "hindi_meaning": "डॉक्टर ने जो आदेश दिया",
+            "example": "A vacation was just what the doctor ordered for her stress."
+        },
+        {
+            "term": "Judge not, lest ye be judged",
+            "meaning": "Don’t criticize others, or you’ll face criticism",
+            "hindi_meaning": "न्याय मत करो, वरना तुम्हारा भी न्याय होगा",
+            "example": "She stopped gossiping—judge not, lest ye be judged."
+        },
+        {
+            "term": "Jump the gun",
+            "meaning": "To act too soon or prematurely",
+            "hindi_meaning": "बंदूक जल्दी चलाना",
+            "example": "He announced the deal too early—jumping the gun."
+        },
+        {
+            "term": "Justice delayed is justice denied",
+            "meaning": "If justice takes too long, it’s ineffective",
+            "hindi_meaning": "न्याय में देरी, न्याय से वंचित करना है",
+            "example": "The case took years—justice delayed is justice denied."
+        },
+        {
+            "term": "Join the club",
+            "meaning": "To express that you’re in the same situation as someone else",
+            "hindi_meaning": "क्लब में शामिल हो",
+            "example": "You’re tired? Join the club—we’re all exhausted."
+        },
+        {
+            "term": "Jumping through hoops",
+            "meaning": "Going through many difficulties to achieve something",
+            "hindi_meaning": "हुप्स के माध्यम से कूदना",
+            "example": "She jumped through hoops to get that visa."
+        },
+        {
+            "term": "Jack up the price",
+            "meaning": "To increase the price significantly",
+            "hindi_meaning": "कीमत बढ़ाना",
+            "example": "They jacked up the price before the sale."
+        },
+        {
+            "term": "Jog someone’s memory",
+            "meaning": "To help someone remember something",
+            "hindi_meaning": "किसी की याददाश्त ताजा करना",
+            "example": "The photo jogged his memory of the old days."
+        },
+        {
+            "term": "Jury is still out",
+            "meaning": "A decision or outcome is still uncertain",
+            "hindi_meaning": "जूरी अभी बाहर है",
+            "example": "We don’t know if the plan will work—the jury is still out."
+        },
+        {
+            "term": "Jump ship",
+            "meaning": "To abandon a project or group",
+            "hindi_meaning": "जहाज छोड़ना",
+            "example": "He jumped ship when the company started failing."
+        },
+        {
+            "term": "Just around the corner",
+            "meaning": "Very near or about to happen soon",
+            "hindi_meaning": "बस कोने के आसपास",
+            "example": "The festival is just around the corner."
+        },
+        {
+            "term": "Jeopardy in the balance",
+            "meaning": "Something is at risk or uncertain",
+            "hindi_meaning": "संतुलन में खतरा",
+            "example": "His career is in jeopardy in the balance after the mistake."
+        },
+        {
+            "term": "Juggle too many balls",
+            "meaning": "To take on too many tasks at once",
+            "hindi_meaning": "बहुत सारी गेंदें उछालना",
+            "example": "She’s juggling too many balls with work and school."
+        },
+        {
+            "term": "Just deserts",
+            "meaning": "Getting what one deserves",
+            "hindi_meaning": "उचित सजा",
+            "example": "He failed after cheating—got his just deserts."
+        },
+        {
+            "term": "Jack-in-the-box",
+            "meaning": "Something or someone unpredictable",
+            "hindi_meaning": "जैक-इन-द-बॉक्स",
+            "example": "His moods are like a jack-in-the-box."
+        },
+        {
+            "term": "Jump at the chance",
+            "meaning": "To eagerly seize an opportunity",
+            "hindi_meaning": "मौके पर कूद पड़ना",
+            "example": "She jumped at the chance to study abroad."
+        },
+        {
+            "term": "Jumping the shark",
+            "meaning": "When something declines in quality or relevance",
+            "hindi_meaning": "शार्क पर कूदना",
+            "example": "The show jumped the shark after the third season."
+        },
+        {
+            "term": "Just the tip of the iceberg",
+            "meaning": "Only a small part of a larger problem or situation",
+            "hindi_meaning": "हिमशैल की सिर्फ नोक",
+            "example": "The issue is bigger than it seems—just the tip of the iceberg."
+        },
+        {
+            "term": "Keep your powder dry",
+            "meaning": "Stay prepared and ready for action",
+            "hindi_meaning": "अपना बारूद सूखा रखो",
+            "example": "Be patient and keep your powder dry for the right moment."
+        },
+        {
+            "term": "Kick the bucket",
+            "meaning": "To die",
+            "hindi_meaning": "बाल्टी लात मारना",
+            "example": "He kicked the bucket after a long illness."
+        },
+        {
+            "term": "Kill two birds with one stone",
+            "meaning": "To achieve two goals with one action",
+            "hindi_meaning": "एक पत्थर से दो पक्षी मारना",
+            "example": "She studied and networked at the event—killing two birds with one stone."
+        },
+        {
+            "term": "Keep your chin up",
+            "meaning": "Stay positive despite difficulties",
+            "hindi_meaning": "अपनी ठुड्डी ऊपर रखो",
+            "example": "Things are tough, but keep your chin up."
+        },
+        {
+            "term": "Knock on wood",
+            "meaning": "To wish for good luck",
+            "hindi_meaning": "लकड़ी पर दस्तक देना",
+            "example": "I’ve been healthy so far—knock on wood."
+        },
+        {
+            "term": "Know the ropes",
+            "meaning": "To understand how something works",
+            "hindi_meaning": "रस्सियों को जानना",
+            "example": "She knows the ropes of the new job already."
+        },
+        {
+            "term": "Keep your friends close and your enemies closer",
+            "meaning": "Monitor adversaries more carefully than allies",
+            "hindi_meaning": "दोस्तों को पास रखो और दुश्मनों को और पास",
+            "example": "He stayed friendly with his rival—keep your friends close and your enemies closer."
+        },
+        {
+            "term": "Kick up a fuss",
+            "meaning": "To make a big complaint or disturbance",
+            "hindi_meaning": "हंगामा खड़ा करना",
+            "example": "She kicked up a fuss about the poor service."
+        },
+        {
+            "term": "Keep it under your hat",
+            "meaning": "To keep something a secret",
+            "hindi_meaning": "इसे अपनी टोपी के नीचे रखो",
+            "example": "I’ll tell you, but keep it under your hat."
+        },
+        {
+            "term": "Knuckle down",
+            "meaning": "To start working seriously",
+            "hindi_meaning": "काम पर जुट जाना",
+            "example": "It’s time to knuckle down and finish the project."
+        },
+        {
+            "term": "Keep your nose to the grindstone",
+            "meaning": "To work hard and continuously",
+            "hindi_meaning": "अपनी नाक को पत्थर पर रखो",
+            "example": "She kept her nose to the grindstone to meet the deadline."
+        },
+        {
+            "term": "Kill the goose that lays the golden eggs",
+            "meaning": "To destroy a valuable resource out of greed",
+            "hindi_meaning": "सोने का अंडा देने वाली हंस को मारना",
+            "example": "Overworking the team killed the goose that lays the golden eggs."
+        },
+        {
+            "term": "Keep up with the Joneses",
+            "meaning": "To try to match others’ social or material status",
+            "hindi_meaning": "जोन्स के साथ बने रहना",
+            "example": "They bought a new car to keep up with the Joneses."
+        },
+        {
+            "term": "Knock it out of the park",
+            "meaning": "To do something extremely well",
+            "hindi_meaning": "इसे पार्क से बाहर मारना",
+            "example": "Her presentation knocked it out of the park."
+        },
+        {
+            "term": "Know which side your bread is buttered on",
+            "meaning": "To understand where your benefits come from",
+            "hindi_meaning": "जानना कि तुम्हारी रोटी पर मक्खन किस तरफ है",
+            "example": "He’s loyal to his boss—he knows which side his bread is buttered on."
+        },
+        {
+            "term": "Keep your cards close to your chest",
+            "meaning": "To keep your plans or intentions secret",
+            "hindi_meaning": "अपने पत्ते सीने से लगाकर रखो",
+            "example": "She kept her cards close to her chest during negotiations."
+        },
+        {
+            "term": "Kick the can down the road",
+            "meaning": "To delay dealing with a problem",
+            "hindi_meaning": "कैन को सड़क पर लात मारना",
+            "example": "They kicked the can down the road instead of solving the issue."
+        },
+        {
+            "term": "Keep a stiff upper lip",
+            "meaning": "To remain calm and composed in adversity",
+            "hindi_meaning": "ऊपरी होंठ कड़ा रखना",
+            "example": "Despite the loss, he kept a stiff upper lip."
+        },
+        {
+            "term": "Knock someone’s socks off",
+            "meaning": "To impress or surprise greatly",
+            "hindi_meaning": "किसी के मोजे उतार देना",
+            "example": "Her performance knocked everyone’s socks off."
+        },
+        {
+            "term": "Keep the wolf from the door",
+            "meaning": "To have enough to avoid poverty or hardship",
+            "hindi_meaning": "भेड़िये को दरवाजे से दूर रखना",
+            "example": "The job keeps the wolf from the door for now."
+        },
+        {
+            "term": "Kill with kindness",
+            "meaning": "To overwhelm someone with excessive kindness",
+            "hindi_meaning": "दया से मारना",
+            "example": "She killed him with kindness to win him over."
+        },
+        {
+            "term": "Keep your eyes peeled",
+            "meaning": "To stay alert and watchful",
+            "hindi_meaning": "अपनी आँखें खुली रखो",
+            "example": "Keep your eyes peeled for any issues."
+        },
+        {
+            "term": "Know your onions",
+            "meaning": "To be very knowledgeable about something",
+            "hindi_meaning": "अपने प्याज जानना",
+            "example": "She really knows her onions when it comes to coding."
+        },
+        {
+            "term": "Keep something at bay",
+            "meaning": "To prevent something from approaching or harming",
+            "hindi_meaning": "किसी चीज को दूर रखना",
+            "example": "Good planning kept failure at bay."
+        },
+        {
+            "term": "Laughter is the best medicine",
+            "meaning": "Laughing can improve your mood or health",
+            "hindi_meaning": "हंसी सबसे अच्छी दवा है",
+            "example": "She cheered up with a funny movie—laughter is the best medicine."
+        },
+        {
+            "term": "Leave no stone unturned",
+            "meaning": "To try every possible way to achieve something",
+            "hindi_meaning": "कोई कसर न छोड़ना",
+            "example": "They left no stone unturned to find the lost keys."
+        },
+        {
+            "term": "Let sleeping dogs lie",
+            "meaning": "Avoid stirring up trouble",
+            "hindi_meaning": "सोते हुए कुत्तों को चुप रहने दो",
+            "example": "Don’t bring up the old argument—let sleeping dogs lie."
+        },
+        {
+            "term": "Let the cat out of the bag",
+            "meaning": "To reveal a secret",
+            "hindi_meaning": "बिल्ली को थैले से बाहर निकालना",
+            "example": "She let the cat out of the bag about the surprise party."
+        },
+        {
+            "term": "Like two peas in a pod",
+            "meaning": "Very similar or close",
+            "hindi_meaning": "एक फली में दो मटर",
+            "example": "The twins are like two peas in a pod."
+        },
+        {
+            "term": "Live and learn",
+            "meaning": "You learn from experience and mistakes",
+            "hindi_meaning": "जियो और सीखो",
+            "example": "I messed up, but you live and learn."
+        },
+        {
+            "term": "Look before you leap",
+            "meaning": "Think carefully before acting",
+            "hindi_meaning": "कूदने से पहले देखो",
+            "example": "She researched before investing—look before you leap."
+        },
+        {
+            "term": "Love is blind",
+            "meaning": "Love ignores flaws or faults",
+            "hindi_meaning": "प्यार अंधा होता है",
+            "example": "She ignored his faults—love is blind."
+        },
+        {
+            "term": "Let bygones be bygones",
+            "meaning": "Forget past conflicts",
+            "hindi_meaning": "बीती ताहि बिसार दे",
+            "example": "They fought but agreed to let bygones be bygones."
+        },
+        {
+            "term": "Lightning never strikes twice",
+            "meaning": "Rare events don’t happen again in the same way",
+            "hindi_meaning": "बिजली दोबारा एक जगह नहीं गिरती",
+            "example": "He won’t get lucky again—lightning never strikes twice."
+        },
+        {
+            "term": "Live and let live",
+            "meaning": "Accept others’ ways of living",
+            "hindi_meaning": "जियो और जीने दो",
+            "example": "Don’t judge their choices—live and let live."
+        },
+        {
+            "term": "Loose lips sink ships",
+            "meaning": "Talking carelessly can cause trouble",
+            "hindi_meaning": "ढीले होंठ जहाज डुबोते हैं",
+            "example": "Don’t share the plan—loose lips sink ships."
+        },
+        {
+            "term": "Lay your cards on the table",
+            "meaning": "To be open and honest about your intentions",
+            "hindi_meaning": "अपने पत्ते मेज पर रखो",
+            "example": "She laid her cards on the table during the meeting."
+        },
+        {
+            "term": "Like a bull in a china shop",
+            "meaning": "Acting clumsily in a delicate situation",
+            "hindi_meaning": "चीन के दुकान में सांड की तरह",
+            "example": "He was like a bull in a china shop at the formal event."
+        },
+        {
+            "term": "Let the chips fall where they may",
+            "meaning": "Accept the outcome, whatever it is",
+            "hindi_meaning": "चिप्स को जहां गिरें वहां गिरने दो",
+            "example": "Take the risk and let the chips fall where they may."
+        },
+        {
+            "term": "Leap of faith",
+            "meaning": "To take a risk based on belief, not evidence",
+            "hindi_meaning": "विश्वास का छलांग",
+            "example": "She took a leap of faith starting her own business."
+        },
+        {
+            "term": "Look on the bright side",
+            "meaning": "To focus on the positive aspects",
+            "hindi_meaning": "उजली ओर देखो",
+            "example": "It’s tough, but look on the bright side—you learned something."
+        },
+        {
+            "term": "Lie low",
+            "meaning": "To stay out of sight or avoid attention",
+            "hindi_meaning": "छिपे रहना",
+            "example": "After the mistake, he decided to lie low."
+        },
+        {
+            "term": "Long in the tooth",
+            "meaning": "Getting old",
+            "hindi_meaning": "दांत में लंबा",
+            "example": "He’s getting long in the tooth for that role."
+        },
+        {
+            "term": "Leave well enough alone",
+            "meaning": "Don’t interfere with something that’s fine",
+            "hindi_meaning": "जो ठीक है उसे छोड़ दो",
+            "example": "The system works—leave well enough alone."
+        },
+        {
+            "term": "Like water off a duck’s back",
+            "meaning": "Criticism or problems have no effect",
+            "hindi_meaning": "बत्तख की पीठ से पानी की तरह",
+            "example": "His insults were like water off a duck’s back to her."
+        },
+        {
+            "term": "Lend an ear",
+            "meaning": "To listen attentively",
+            "hindi_meaning": "कान उधार देना",
+            "example": "She lent an ear to his troubles."
+        },
+        {
+            "term": "Lose your marbles",
+            "meaning": "To act irrationally or lose your mind",
+            "hindi_meaning": "अपने कंचे खोना",
+            "example": "He’s shouting nonsense—has he lost his marbles?"
+        },
+        {
+            "term": "Let your hair down",
+            "meaning": "To relax and be yourself",
+            "hindi_meaning": "अपने बाल खोलना",
+            "example": "At the party, she finally let her hair down."
+        },
+        {
+            "term": "Light at the end of the tunnel",
+            "meaning": "Hope or relief after a difficult period",
+            "hindi_meaning": "सुरंग के अंत में रोशनी",
+            "example": "After months of work, there’s light at the end of the tunnel."
+        },
+        {
+            "term": "Like a fish out of water",
+            "meaning": "Feeling uncomfortable in an unfamiliar situation",
+            "hindi_meaning": "पानी से बाहर मछली की तरह",
+            "example": "At the tech conference, he was like a fish out of water."
+        },
+        {
+            "term": "Live on borrowed time",
+            "meaning": "To continue beyond an expected duration",
+            "hindi_meaning": "उधार के समय पर जीना",
+            "example": "After the diagnosis, he felt he was living on borrowed time."
+        },
+        {
+            "term": "Lock, stock, and barrel",
+            "meaning": "Completely or entirely",
+            "hindi_meaning": "ताला, स्टॉक और बैरल",
+            "example": "They sold the business, lock, stock, and barrel."
+        },
+        {
+            "term": "Last but not least",
+            "meaning": "The final item is still important",
+            "hindi_meaning": "अंतिम लेकिन कम महत्वपूर्ण नहीं",
+            "example": "She spoke last but not least at the event."
+        },
+        {
+            "term": "Lead by example",
+            "meaning": "To show others how to act through your behavior",
+            "hindi_meaning": "उदाहरण से नेतृत्व करना",
+            "example": "She led by example, working harder than anyone."
+        },
+        {
+            "term": "Make a mountain out of a molehill",
+            "meaning": "To exaggerate a small problem",
+            "hindi_meaning": "छछूंदर के टीले से पहाड़ बनाना",
+            "example": "It’s a minor issue—don’t make a mountain out of a molehill."
+        },
+        {
+            "term": "Make hay while the sun shines",
+            "meaning": "Take advantage of favorable conditions",
+            "hindi_meaning": "जब सूरज चमके तब घास बनाओ",
+            "example": "She worked extra hours during the busy season—make hay while the sun shines."
+        },
+        {
+            "term": "Many hands make light work",
+            "meaning": "Tasks are easier when more people help",
+            "hindi_meaning": "कई हाथ हल्का काम बनाते हैं",
+            "example": "The team finished quickly—many hands make light work."
+        },
+        {
+            "term": "Miss the boat",
+            "meaning": "To miss an opportunity",
+            "hindi_meaning": "नाव छूट जाना",
+            "example": "He didn’t apply in time and missed the boat."
+        },
+        {
+            "term": "Money doesn’t grow on trees",
+            "meaning": "Money is not easy to come by",
+            "hindi_meaning": "पैसा पेड़ पर नहीं उगता",
+            "example": "You can’t keep spending—money doesn’t grow on trees."
+        },
+        {
+            "term": "Monkey see, monkey do",
+            "meaning": "Copying someone’s actions without thinking",
+            "hindi_meaning": "बंदर देखे, बंदर करता",
+            "example": "The kids copied his bad habits—monkey see, monkey do."
+        },
+        {
+            "term": "Mend fences",
+            "meaning": "To repair a damaged relationship",
+            "hindi_meaning": "बाड़ की मरम्मत करना",
+            "example": "They apologized to mend fences after the fight."
+        },
+        {
+            "term": "Make a clean sweep",
+            "meaning": "To win or succeed completely",
+            "hindi_meaning": "पूर्ण सफाई करना",
+            "example": "The team made a clean sweep in the competition."
+        },
+        {
+            "term": "Make ends meet",
+            "meaning": "To have just enough money to cover expenses",
+            "hindi_meaning": "खर्च चलाना",
+            "example": "She worked two jobs to make ends meet."
+        },
+        {
+            "term": "Move the goalposts",
+            "meaning": "To change the rules or expectations unfairly",
+            "hindi_meaning": "गोलपोस्ट हिलाना",
+            "example": "They moved the goalposts by adding new requirements."
+        },
+        {
+            "term": "Make a long story short",
+            "meaning": "To summarize briefly",
+            "hindi_meaning": "लंबी कहानी को छोटा करना",
+            "example": "To make a long story short, we won the deal."
+        },
+        {
+            "term": "Mind your own business",
+            "meaning": "To not interfere in others’ affairs",
+            "hindi_meaning": "अपने काम से काम रखो",
+            "example": "Stop asking about my plans—mind your own business."
+        },
+        {
+        "term": "Mum’s the word",
+        "meaning": "Keep quiet or secret about something",
+        "hindi_meaning": "मौन ही शब्द है",
+        "example": "Don’t tell anyone—mum’s the word."
+    },
+        {
+            "term": "Make waves",
+            "meaning": "To cause trouble or change things",
+            "hindi_meaning": "लहरें बनाना",
+            "example": "Her bold speech made waves at the conference."
+        },
+        {
+            "term": "Meet halfway",
+            "meaning": "To compromise",
+            "hindi_meaning": "आधे रास्ते मिलना",
+            "example": "They met halfway to settle the dispute."
+        },
+        {
+            "term": "Make a beeline",
+            "meaning": "To go directly to something",
+            "hindi_meaning": "सीधा रास्ता लेना",
+            "example": "She made a beeline for the food table."
+        },
+        {
+            "term": "Money talks",
+            "meaning": "Wealth can influence outcomes",
+            "hindi_meaning": "पैसा बोलता है",
+            "example": "He got special treatment—money talks."
+        },
+        {
+            "term": "Make no bones about it",
+            "meaning": "To state something clearly without hesitation",
+            "hindi_meaning": "इसमें कोई हड्डी नहीं बनाना",
+            "example": "She made no bones about her dislike for the plan."
+        },
+        {
+            "term": "March to the beat of your own drum",
+            "meaning": "To do things your own way",
+            "hindi_meaning": "अपने ढोल की ताल पर नाचना",
+            "example": "He ignores trends and marches to the beat of his own drum."
+        },
+        {
+            "term": "Milk it for all it’s worth",
+            "meaning": "To take full advantage of a situation",
+            "hindi_meaning": "इसका पूरा फायदा उठाना",
+            "example": "She milked the injury for all it’s worth to get attention."
+        },
+        {
+            "term": "Mind over matter",
+            "meaning": "Mental strength can overcome physical challenges",
+            "hindi_meaning": "मन पर मसला",
+            "example": "He finished the race through sheer will—mind over matter."
+        },
+            {
+                "term": "Necessity is the mother of invention",
+                "meaning": "Need drives creativity and innovation",
+                "hindi_meaning": "आवश्यकता आविष्कार की जननी है",
+                "example": "They built a tool from scratch—necessity is the mother of invention."
+            },
+            {
+                "term": "Never look a gift horse in the mouth",
+                "meaning": "Don’t question the value of something given freely",
+                "hindi_meaning": "उपहार के घोड़े के मुंह में मत देखो",
+                "example": "She complained about the free ticket—never look a gift horse in the mouth."
+            },
+            {
+                "term": "No man is an island",
+                "meaning": "People need others to thrive",
+                "hindi_meaning": "कोई भी व्यक्ति द्वीप नहीं है",
+                "example": "He learned to collaborate—no man is an island."
+            },
+            {
+                "term": "No pain, no gain",
+                "meaning": "Hard work is required for success",
+                "hindi_meaning": "बिना दर्द के कोई लाभ नहीं",
+                "example": "She trained hard to win—no pain, no gain."
+            },
+            {
+                "term": "No smoke without fire",
+                "meaning": "Rumors often have some truth",
+                "hindi_meaning": "बिना आग के धुआं नहीं",
+                "example": "The gossip must be true—no smoke without fire."
+            },
+            {
+                "term": "Not all it’s cracked up to be",
+                "meaning": "Something is less impressive than expected",
+                "hindi_meaning": "जैसा बताया गया वैसा नहीं",
+                "example": "The job wasn’t all it’s cracked up to be."
+            },
+            {
+                "term": "No rest for the wicked",
+                "meaning": "Trouble or work continues for wrongdoers",
+                "hindi_meaning": "दुष्टों को आराम नहीं",
+                "example": "He’s always busy—no rest for the wicked."
+            },
+            {
+                "term": "Nothing ventured, nothing gained",
+                "meaning": "You must take risks to achieve rewards",
+                "hindi_meaning": "कुछ जोखिम नहीं, कुछ प्राप्त नहीं",
+                "example": "She took a chance and won—nothing ventured, nothing gained."
+            },
+            {
+                "term": "Nose out of joint",
+                "meaning": "To be upset or offended",
+                "hindi_meaning": "नाक में दम होना",
+                "example": "Her promotion put his nose out of joint."
+            },
+            {
+                "term": "Not the sharpest tool in the shed",
+                "meaning": "Not very intelligent",
+                "hindi_meaning": "शेड में सबसे तेज औजार नहीं",
+                "example": "He’s nice but not the sharpest tool in the shed."
+            },
+            {
+                "term": "No use crying over spilled milk",
+                "meaning": "Don’t regret what cannot be undone",
+                "hindi_meaning": "गिरे हुए दूध पर रोना बेकार है",
+                "example": "The mistake is done—no use crying over spilled milk."
+            },
+            {
+                "term": "Not playing with a full deck",
+                "meaning": "Lacking intelligence or rationality",
+                "hindi_meaning": "पूरा ताश का पत्ता नहीं खेलना",
+                "example": "His decisions seem off—he’s not playing with a full deck."
+            },
+            {
+                "term": "No stone unturned",
+                "meaning": "To try every possible way",
+                "hindi_meaning": "कोई कसर न छोड़ना",
+                "example": "She left no stone unturned to solve the problem."
+            },
+            {
+                "term": "No news is good news",
+                "meaning": "Lack of information suggests things are fine",
+                "hindi_meaning": "कोई खबर न होना अच्छी खबर है",
+                "example": "I haven’t heard from him—no news is good news."
+            },
+            {
+                "term": "Not worth the paper it’s written on",
+                "meaning": "Something is worthless or unreliable",
+                "hindi_meaning": "कागज के लायक नहीं",
+                "example": "The contract was not worth the paper it’s written on."
+            },
+            {
+                "term": "Nip it in the bud",
+                "meaning": "To stop something early before it grows",
+                "hindi_meaning": "इसे कली में दबाना",
+                "example": "They nipped the problem in the bud."
+            },
+            {
+                "term": "No holds barred",
+                "meaning": "No restrictions or limits",
+                "hindi_meaning": "कोई रोक-टोक नहीं",
+                "example": "It was a no holds barred argument."
+            },
+            {
+                "term": "Not a snowball’s chance in hell",
+                "meaning": "No possibility of success",
+                "hindi_meaning": "नरक में बर्फ के गोले की कोई संभावना नहीं",
+                "example": "He has not a snowball’s chance in hell of winning."
+            },
+            {
+                "term": "Nail your colors to the mast",
+                "meaning": "To firmly stand by your beliefs",
+                "hindi_meaning": "अपने रंगों को मस्तूल पर चढ़ाना",
+                "example": "She nailed her colors to the mast and defended her stance."
+            },
+            {
+                "term": "Never say never",
+                "meaning": "Don’t rule out possibilities",
+                "hindi_meaning": "कभी नहीं कहना",
+                "example": "I might try it someday—never say never."
+            },
+            {
+                "term": "No spring chicken",
+                "meaning": "No longer young",
+                "hindi_meaning": "कोई जवान मुर्गी नहीं",
+                "example": "He’s no spring chicken but still active."
+            },
+        {
+            "term": "Once bitten, twice shy",
+            "meaning": "A bad experience makes you cautious",
+            "hindi_meaning": "एक बार काटा, दो बार शरमाना",
+            "example": "After the scam, he was careful—once bitten, twice shy."
+        },
+        {
+            "term": "Out of sight, out of mind",
+            "meaning": "If something is not visible, it’s forgotten",
+            "hindi_meaning": "नजर से बाहर, दिमाग से बाहर",
+            "example": "She forgot him when he moved—out of sight, out of mind."
+        },
+        {
+            "term": "On the ball",
+            "meaning": "Alert and efficient",
+            "hindi_meaning": "गेंद पर होना",
+            "example": "She’s always on the ball with her work."
+        },
+        {
+            "term": "Off the hook",
+            "meaning": "To escape responsibility or trouble",
+            "hindi_meaning": "हुक से बाहर",
+            "example": "He was let off the hook for the mistake."
+        },
+        {
+            "term": "Over the moon",
+            "meaning": "Extremely happy",
+            "hindi_meaning": "चांद के पार",
+            "example": "She was over the moon about her promotion."
+        },
+        {
+            "term": "On cloud nine",
+            "meaning": "A state of extreme happiness",
+            "hindi_meaning": "नौवें बादल पर",
+            "example": "He was on cloud nine after winning."
+        },
+        {
+            "term": "One man’s trash is another man’s treasure",
+            "meaning": "What one person discards, another may value",
+            "hindi_meaning": "एक का कचरा दूसरे का खजाना",
+            "example": "She loved the old chair—one man’s trash is another man’s treasure."
+        },
+        {
+            "term": "Out of the frying pan into the fire",
+            "meaning": "Going from a bad situation to a worse one",
+            "hindi_meaning": "तवे से आग में",
+            "example": "He left a bad job for a worse one—out of the frying pan into the fire."
+        },
+        {
+            "term": "On a wing and a prayer",
+            "meaning": "With little chance of success, relying on hope",
+            "hindi_meaning": "पंख और प्रार्थना पर",
+            "example": "They finished the project on a wing and a prayer."
+        },
+        {
+            "term": "Old habits die hard",
+            "meaning": "It’s difficult to change established behaviors",
+            "hindi_meaning": "पुरानी आदतें आसानी से नहीं मरतीं",
+            "example": "He’s still late—old habits die hard."
+        },
+        {
+            "term": "On the same page",
+            "meaning": "In agreement or understanding",
+            "hindi_meaning": "एक ही पेज पर",
+            "example": "We’re all on the same page about the plan."
+        },
+        {
+            "term": "Over the hill",
+            "meaning": "Past one’s prime or getting old",
+            "hindi_meaning": "पहाड़ी के पार",
+            "example": "He jokes he’s over the hill at 40."
+        },
+        {
+            "term": "Off the beaten track",
+            "meaning": "Unusual or unconventional",
+            "hindi_meaning": "पीटे हुए रास्ते से हटकर",
+            "example": "They traveled to an off the beaten track village."
+        },
+        {
+            "term": "On a shoestring",
+            "meaning": "With a very small budget",
+            "hindi_meaning": "कम बजट पर",
+            "example": "They started the business on a shoestring."
+        },
+        {
+            "term": "Open a can of worms",
+            "meaning": "To create a complicated problem",
+            "hindi_meaning": "कीड़ों का डिब्बा खोलना",
+            "example": "Asking about the past opened a can of worms."
+        },
+        {
+            "term": "Out of your depth",
+            "meaning": "In a situation beyond your ability",
+            "hindi_meaning": "अपनी गहराई से बाहर",
+            "example": "He was out of his depth in the advanced class."
+        },
+        {
+            "term": "On the fence",
+            "meaning": "Undecided about something",
+            "hindi_meaning": "बाड़ पर",
+            "example": "She’s still on the fence about the job offer."
+        },
+        {
+            "term": "Once in a blue moon",
+            "meaning": "Very rarely",
+            "hindi_meaning": "नीले चांद में एक बार",
+            "example": "He visits only once in a blue moon."
+        },
+        {
+            "term": "Out of the woods",
+            "meaning": "No longer in danger or difficulty",
+            "hindi_meaning": "जंगल से बाहर",
+            "example": "She’s recovering but not out of the woods yet."
+        },
+        {
+            "term": "Off your rocker",
+            "meaning": "Acting crazy or irrational",
+            "hindi_meaning": "अपने रॉकर से हटकर",
+            "example": "You want to quit now? Are you off your rocker?"
+        },
+        {
+            "term": "On thin ice",
+            "meaning": "In a risky or dangerous situation",
+            "hindi_meaning": "पतली बर्फ पर",
+            "example": "He’s on thin ice with the boss after being late."
+        },
+        {
+            "term": "Penny for your thoughts",
+            "meaning": "Asking someone what they are thinking",
+            "hindi_meaning": "आपके विचारों के लिए एक पैसा",
+            "example": "You seem quiet—a penny for your thoughts?"
+        },
+        {
+            "term": "Practice makes perfect",
+            "meaning": "Regular practice leads to improvement",
+            "hindi_meaning": "अभ्यास से पूर्णता आती है",
+            "example": "She kept practicing and won—practice makes perfect."
+        },
+        {
+            "term": "Paddle your own canoe",
+            "meaning": "To be independent and self-reliant",
+            "hindi_meaning": "अपनी नाव खुद चलाओ",
+            "example": "He started his business alone—paddle your own canoe."
+        },
+        {
+            "term": "Put all your eggs in one basket",
+            "meaning": "To risk everything on one venture",
+            "hindi_meaning": "सारे अंडे एक टोकरी में रखना",
+            "example": "Don’t invest everything in one stock—don’t put all your eggs in one basket."
+        },
+        {
+            "term": "Pull the wool over someone’s eyes",
+            "meaning": "To deceive or trick someone",
+            "hindi_meaning": "किसी की आँखों पर ऊन डालना",
+            "example": "He tried to pull the wool over her eyes with a fake deal."
+        },
+        {
+            "term": "Put the cart before the horse",
+            "meaning": "To do things in the wrong order",
+            "hindi_meaning": "गाड़ी को घोड़े के सामने रखना",
+            "example": "Plan first, then act—don’t put the cart before the horse."
+        },
+        {
+            "term": "Pour oil on troubled waters",
+            "meaning": "To calm a tense situation",
+            "hindi_meaning": "अशांत पानी पर तेल डालना",
+            "example": "She mediated to pour oil on troubled waters."
+        },
+        {
+            "term": "Paint the town red",
+            "meaning": "To go out and celebrate wildly",
+            "hindi_meaning": "शहर को लाल रंगना",
+            "example": "They painted the town red after the victory."
+        },
+        {
+            "term": "Play it by ear",
+            "meaning": "To act spontaneously without a plan",
+            "hindi_meaning": "कान से बजाना",
+            "example": "We’ll see how it goes and play it by ear."
+        },
+        {
+            "term": "Put your best foot forward",
+            "meaning": "To make a good impression or effort",
+            "hindi_meaning": "अपना सबसे अच्छा पैर आगे रखो",
+            "example": "She put her best foot forward in the interview."
+        },
+        {
+            "term": "Pull your weight",
+            "meaning": "To do your fair share of work",
+            "hindi_meaning": "अपना वजन खींचो",
+            "example": "Everyone must pull their weight on this project."
+        },
+        {
+            "term": "Preach to the choir",
+            "meaning": "To try convincing those who already agree",
+            "hindi_meaning": "कॉयर को उपदेश देना",
+            "example": "You’re preaching to the choir—I already support you."
+        },
+        {
+            "term": "Put your money where your mouth is",
+            "meaning": "To back up your words with action",
+            "hindi_meaning": "अपना पैसा वहां रखो जहां तुम्हारा मुंह है",
+            "example": "If you believe in it, put your money where your mouth is."
+        },
+        {
+            "term": "Play your cards right",
+            "meaning": "To make smart choices to achieve success",
+            "hindi_meaning": "अपने पत्ते सही खेलो",
+            "example": "Play your cards right, and you’ll get the promotion."
+        },
+        {
+            "term": "Pass the buck",
+            "meaning": "To shift responsibility to someone else",
+            "hindi_meaning": "जिम्मेदारी टालना",
+            "example": "He passed the buck instead of fixing the issue."
+        },
+        {
+            "term": "Pick up the pieces",
+            "meaning": "To recover after a setback",
+            "hindi_meaning": "टुकड़े उठाना",
+            "example": "After the failure, she picked up the pieces and tried again."
+        },
+        {
+            "term": "Put the pedal to the metal",
+            "meaning": "To go full speed or effort",
+            "hindi_meaning": "पैडल को धातु तक दबाना",
+            "example": "We need to finish fast—put the pedal to the metal."
+        },
+        {
+            "term": "Play devil’s advocate",
+            "meaning": "To argue an opposing view to test an idea",
+            "hindi_meaning": "शैतान का वकील बनना",
+            "example": "She played devil’s advocate to challenge the plan."
+        },
+        {
+            "term": "Pull up your socks",
+            "meaning": "To make an effort to improve",
+            "hindi_meaning": "अपने मोजे ऊपर खींचो",
+            "example": "You’re failing—time to pull up your socks."
+        },
+        {
+            "term": "Put a lid on it",
+            "meaning": "To stop talking or calm down",
+            "hindi_meaning": "इस पर ढक्कन लगाओ",
+            "example": "Stop arguing—just put a lid on it."
+        },
+        {
+            "term": "Poke your nose in",
+            "meaning": "To interfere in someone else’s businessFontSize: 12px",
+            "hindi_meaning": "नाक घुसाना",
+            "example": "Don’t poke your nose in their private matters."
+        },
+        {
+            "term": "Put your foot in your mouth",
+            "meaning": "To say something embarrassing or inappropriate",
+            "hindi_meaning": "अपना पैर मुंह में डालना",
+            "example": "He put his foot in his mouth by insulting the boss."
+        },
+        {
+            "term": "Play with fire",
+            "meaning": "To take dangerous risks",
+            "hindi_meaning": "आग से खेलना",
+            "example": "Investing all your money is playing with fire."
+        },
+        {
+            "term": "Pay through the nose",
+            "meaning": "To pay a high price for something",
+            "hindi_meaning": "नाक से भुगतान करना",
+            "example": "She paid through the nose for that designer bag."
+        },
+        {
+            "term": "Pull someone’s leg",
+            "meaning": "To tease or joke with someone",
+            "hindi_meaning": "किसी की टांग खींचना",
+            "example": "I was just pulling your leg about failing."
+        },
+        {
+            "term": "Quick as a flash",
+            "meaning": "Very fast or instantaneous",
+            "hindi_meaning": "चमक की तरह तेज",
+            "example": "She answered the question quick as a flash."
+        },
+        {
+            "term": "Quiet as a mouse",
+            "meaning": "Very silent or unobtrusive",
+            "hindi_meaning": "चूहे की तरह शांत",
+            "example": "He sneaked in quiet as a mouse."
+        },
+        {
+            "term": "Quit while you’re ahead",
+            "meaning": "Stop when you’re in a good position to avoid risk",
+            "hindi_meaning": "जब तुम आगे हो तब छोड़ दो",
+            "example": "You’re winning—quit while you’re ahead."
+        },
+        {
+            "term": "Quarrel with your bread and butter",
+            "meaning_queues": "To fight with the source of your livelihood",
+            "hindi_meaning": "अपनी रोटी और मक्खन से झगड़ा",
+            "example": "He shouldn’t fight with his boss—he’s quarreling with his bread and butter."
+        },
+        {
+            "term": "Queer the pitch",
+            "meaning": "To spoil someone’s plans",
+            "hindi_meaning": "पिच को खराब करना",
+            "example": "His delay queered the pitch for the event."
+        },
+        {
+            "term": "Quick on the draw",
+            "meaning": "Very fast to react",
+            "hindi_meaning": "तेजी से निकालने वाला",
+            "example": "She’s quick on the draw with witty replies."
+        },
+        {
+            "term": "Quality over quantity",
+            "meaning": "Better to have a few good things than many poor ones",
+            "hindi_meaning": "गुणवत्ता मात्रा से बेहतर",
+            "example": "Choose quality over quantity when buying tools."
+        },
+        {
+            "term": "Quell your fears",
+            "meaning": "To calm or overcome fears",
+            "hindi_meaning": "अपने डर को शांत करना",
+            "example": "Her kind words quelled my fears about the exam."
+        },
+        {
+            "term": "Question of time",
+            "meaning": "Something that will happen eventually",
+            "hindi_meaning": "समय की बात",
+            "example": "It’s just a question of time before she succeeds."
+        },
+        {
+            "term": "Quick fix",
+            "meaning": "A fast but temporary solution",
+            "hindi_meaning": "तेज समाधान",
+            "example": "The patch was just a quick fix for the leak."
+        },
+        {
+            "term": "Queue up",
+            "meaning": "To get in line or prepare",
+            "hindi_meaning": "पंक्ति में लगना",
+            "example": "They queued up for the concert tickets."
+        },
+        {
+            "term": "Quiet before the storm",
+            "meaning": "A calm period before trouble",
+            "hindi_meaning": "तूफान से पहले की शांति",
+            "example": "It’s too calm—must be the quiet before the storm."
+        },
+        {
+            "term": "Raining cats and dogs",
+            "meaning": "Raining very heavily",
+            "hindi_meaning": "बिल्लियों और कुत्तों की बारिश",
+            "example": "We got soaked—it’s raining cats and dogs."
+        },
+        {
+            "term": "Read between the lines",
+            "meaning": "To understand the hidden meaning",
+            "hindi_meaning": "पंक्तियों के बीच पढ़ना",
+            "example": "Her smile hid sadness—read between the lines."
+        },
+        {
+            "term": "Roll with the punches",
+            "meaning": "To adapt to difficulties",
+            "hindi_meaning": "घूंसों के साथ लुढ़कना",
+            "example": "Life is tough, but she rolls with the punches."
+        },
+        {
+            "term": "Rome wasn’t built in a day",
+            "meaning": "Great things take time",
+            "hindi_meaning": "रोम एक दिन में नहीं बना",
+            "example": "Be patient—Rome wasn’t built in a day."
+        },
+        {
+            "term": "Rub salt in the wound",
+            "meaning": "To make a bad situation worse",
+            "hindi_meaning": "घाव में नमक रगड़ना",
+            "example": "His comments rubbed salt in her wounds."
+        },
+        {
+            "term": "Run like the wind",
+            "meaning": "To move very fast",
+            "hindi_meaning": "हवा की तरह दौड़ना",
+            "example": "She ran like the wind to catch the bus."
+        },
+        {
+            "term": "Red herring",
+            "meaning": "A distraction from the real issue",
+            "hindi_meaning": "लाल हेरिंग",
+            "example": "The rumor was a red herring to avoid the truth."
+        },
+        {
+            "term": "Rise and shine",
+            "meaning": "Wake up and be energetic",
+            "hindi_meaning": "उठो और चमको",
+            "example": "Come on, rise and shine—it’s a new day!"
+        },
+        {
+            "term": "Right as rain",
+            "meaning": "In perfect condition",
+            "hindi_meaning": "बारिश की तरह सही",
+            "example": "After rest, she’s right as rain."
+        },
+        {
+            "term": "Rock the boat",
+            "meaning": "To cause trouble or disruption",
+            "hindi_meaning": "नाव हिलाना",
+            "example": "Don’t rock the boat with complaints now."
+        },
+        {
+            "term": "Run out of steam",
+            "meaning": "To lose energy or momentum",
+            "hindi_meaning": "भाप खत्म होना",
+            "example": "The team ran out of steam by the end."
+        },
+        {
+            "term": "Rule of thumb",
+            "meaning": "A general guideline based on experience",
+            "hindi_meaning": "अंगूठे का नियम",
+            "example": "As a rule of thumb, save 10% of your income."
+        },
+        {
+            "term": "Raise the bar",
+            "meaning": "To set higher standards",
+            "hindi_meaning": "पट्टी उठाना",
+            "example": "Her work raised the bar for everyone."
+        },
+        {
+            "term": "Reap what you sow",
+            "meaning": "Your actions determine your consequences",
+            "hindi_meaning": "जैसा बोओगे, वैसा काटोगे",
+            "example": "He worked hard and succeeded—reap what you sow."
+        },
+        {
+            "term": "Round peg in a square hole",
+            "meaning": "Someone or something that doesn’t fit",
+            "hindi_meaning": "वर्गाकार छेद में गोल खूंटी",
+            "example": "He’s a round peg in a square hole at that job."
+        },
+        {
+            "term": "Run a tight ship",
+            "meaning": "To manage strictly and efficiently",
+            "hindi_meaning": "कड़ा जहाज चलाना",
+            "example": "She runs a tight ship in her classroom."
+        },
+        {
+            "term": "Red letter day",
+            "meaning": "A special or memorable day",
+            "hindi_meaning": "लाल अक्षर का दिन",
+            "example": "Her graduation was a red letter day."
+        },
+        {
+            "term": "Roll up your sleeves",
+            "meaning": "To prepare for hard work",
+            "hindi_meaning": "अपनी आस्तीनें चढ़ाओ",
+            "example": "Let’s roll up our sleeves and get to work."
+        },
+        {
+            "term": "Rest on your laurels",
+            "meaning": "To rely on past achievements",
+            "hindi_meaning": "अपनी उपलब्धियों पर आराम करना",
+            "example": "Don’t rest on your laurels—keep improving."
+        },
+        {
+            "term": "Ride shotgun",
+            "meaning": "To sit in the front passenger seat or assist closely",
+            "hindi_meaning": "शॉटगन की सवारी करना",
+            "example": "I’ll ride shotgun and navigate."
+        },
+        {
+            "term": "Run the gauntlet",
+            "meaning": "To face a series of challenges or criticisms",
+            "hindi_meaning": "दस्ताना दौड़ना",
+            "example": "She ran the gauntlet of tough questions."
+        },
+        {
+            "term": "Rags to riches",
+            "meaning": "Going from poverty to wealth",
+            "hindi_meaning": "चिथड़ों से धन तक",
+            "example": "Her story is a rags to riches tale."
+        },
+        {
+            "term": "Rough around the edges",
+            "meaning": "Lacking refinement or polish",
+            "hindi_meaning": "किनारों पर खुरदुरा",
+            "example": "He’s talented but rough around the edges."
+        },
+        {
+            "term": "Spill the beans",
+            "meaning": "To reveal a secret",
+            "hindi_meaning": "दाल बिखेरना",
+            "example": "She spilled the beans about the surprise party."
+        },
+        {
+            "term": "Strike while the iron is hot",
+            "meaning": "To act at the right moment",
+            "hindi_meaning": "लोहा गर्म होने पर चोट मारना",
+            "example": "He proposed the deal now—strike while the iron is hot."
+        },
+        {
+            "term": "Still waters run deep",
+            "meaning": "Quiet people often have deep thoughts or emotions",
+            "hindi_meaning": "शांत पानी गहरा बहता है",
+            "example": "He’s quiet, but still waters run deep."
+        },
+        {
+            "term": "Saved by the bell",
+            "meaning": "Rescued from a difficult situation at the last moment",
+            "hindi_meaning": "घंटी द्वारा बचाया गया",
+            "example": "The call ended just in time—saved by the bell."
+        },
+        {
+            "term": "Set in stone",
+            "meaning": "Something fixed and unchangeable",
+            "hindi_meaning": "पत्थर में जड़ा हुआ",
+            "example": "The decision isn’t set in stone yet."
+        },
+        {
+            "term": "Skeleton in the closet",
+            "meaning": "A hidden secret or shameful past",
+            "hindi_meaning": "अलमारी में कंकाल",
+            "example": "He has a skeleton in the closet from his past."
+        },
+        {
+            "term": "Sink or swim",
+            "meaning": "To succeed or fail by your own efforts",
+            "hindi_meaning": "डूबना या तैरना",
+            "example": "It’s up to her now—sink or swim."
+        },
+        {
+            "term": "Steal someone’s thunder",
+            "meaning": "To take credit for someone else’s idea",
+            "hindi_meaning": "किसी की गरज चुराना",
+            "example": "He stole her thunder by presenting her idea."
+        },
+        {
+            "term": "Spit and image",
+            "meaning": "Someone who closely resembles another",
+            "hindi_meaning": "थूक और छवि",
+            "example": "She’s the spit and image of her mother."
+        },
+        {
+            "term": "See the forest for the trees",
+            "meaning": "To focus on the big picture, not details",
+            "hindi_meaning": "पेड़ों के लिए जंगल देखना",
+            "example": "Don’t get lost in details—see the forest for the trees."
+        },
+        {
+            "term": "Sow the seeds",
+            "meaning": "To start something that will grow later",
+            "hindi_meaning": "बीज बोना",
+            "example": "Her kind words sowed the seeds of friendship."
+        },
+        {
+            "term": "Shoot the breeze",
+            "meaning": "To have a casual conversation",
+            "hindi_meaning": "हवा चलाना",
+            "example": "They sat and shot the breeze for hours."
+        },
+        {
+            "term": "Sleep on it",
+            "meaning": "To delay a decision to think it over",
+            "hindi_meaning": "इस पर सोना",
+            "example": "Don’t decide now—sleep on it."
+        },
+        {
+            "term": "Smell a rat",
+            "meaning": "To suspect something is wrong",
+            "hindi_meaning": "चूहा सूंघना",
+            "example": "The deal seemed off—she smelled a rat."
+        },
+        {
+            "term": "Straight from the horse’s mouth",
+            "meaning": "Information directly from the source",
+            "hindi_meaning": "घोड़े के मुंह से सीधा",
+            "example": "I heard it straight from the horse’s mouth."
+        },
+        {
+            "term": "Sweep under the rug",
+            "meaning": "To hide or ignore a problem",
+            "hindi_meaning": "गलीचे के नीचे झाड़ू देना",
+            "example": "They swept the issue under the rug."
+        },
+        {
+            "term": "Spur of the moment",
+            "meaning": "Done impulsively without planning",
+            "hindi_meaning": "पल की प्रेरणा",
+            "example": "We took a trip on the spur of the moment."
+        },
+        {
+            "term": "Sick as a dog",
+            "meaning": "Very ill",
+            "hindi_meaning": "कुत्ते की तरह बीमार",
+            "example": "He was sick as a dog after the flu."
+        },
+        {
+            "term": "Sit on the fence",
+            "meaning": "To remain undecided",
+            "hindi_meaning": "बाड़ पर बैठना",
+            "example": "She’s sitting on the fence about the job."
+        },
+        {
+            "term": "Start from scratch",
+            "meaning": "To begin from the beginning",
+            "hindi_meaning": "शुरू से शुरू करना",
+            "example": "They had to start from scratch after the failure."
+        },
+        {
+            "term": "Steer clear",
+            "meaning": "To avoid something or someone",
+            "hindi_meaning": "दूर रहना",
+            "example": "Steer clear of that risky investment."
+        },
+        {
+            "term": "Stick to your guns",
+            "meaning": "To stand firm in your beliefs",
+            "hindi_meaning": "अपनी बंदूक पर अडिग रहना",
+            "example": "She stuck to her guns despite opposition."
+        },
+        {
+            "term": "Swim against the tide",
+            "meaning": "To go against the majority",
+            "hindi_meaning": "ज्वार के खिलाफ तैरना",
+            "example": "He swam against the tide with his unique idea."
+        },
+        {
+            "term": "Spare the rod, spoil the child",
+            "meaning": "Discipline is necessary to raise good children",
+            "hindi_meaning": "छड़ी बख्शो, बच्चे को बिगाड़ो",
+            "example": "They believe in strict rules—spare the rod, spoil the child."
+        },
+        {
+            "term": "Speak of the devil",
+            "meaning": "When someone you’re talking about appears",
+            "hindi_meaning": "शैतान का नाम लो, और वह हाजिर",
+            "example": "We were just talking about her—speak of the devil!"
+        },
+        {
+            "term": "Square peg in a round hole",
+            "meaning": "Someone who doesn’t fit in",
+            "hindi_meaning": "गोल छेद में चौकोर खूंटी",
+            "example": "He’s a square peg in a round hole at that job."
+        },
+        {
+            "term": "Take the bull by the horns",
+            "meaning": "To face a problem directly",
+            "hindi_meaning": "सांड को सींगों से पकड़ना",
+            "example": "She took the bull by the horns and addressed the issue."
+        },
+        {
+            "term": "The early bird catches the worm",
+            "meaning": "Acting first gives an advantage",
+            "hindi_meaning": "जल्दी उठने वाला पक्षी कीड़ा पकड़ता है",
+            "example": "He arrived first and got the deal—the early bird catches the worm."
+        },
+        {
+            "term": "Throw in the towel",
+            "meaning": "To give up",
+            "hindi_meaning": "तौलिया फेंकना",
+            "example": "After failing repeatedly, he threw in the towel."
+        },
+        {
+            "term": "Time heals all wounds",
+            "meaning": "Pain or grief lessens with time",
+            "hindi_meaning": "समय सभी घाव भरता है",
+            "example": "She’s heartbroken now, but time heals all wounds."
+        },
+        {
+            "term": "Too many cooks spoil the broth",
+            "meaning": "Too many people working on something can ruin it",
+            "hindi_meaning": "बहुत सारे रसोइये शोरबा खराब करते हैं",
+            "example": "The project failed—too many cooks spoil the broth."
+        },
+        {
+            "term": "Take it with a grain of salt",
+            "meaning": "To not fully believe something",
+            "hindi_meaning": "नमक के दाने के साथ लेना",
+            "example": "His advice is questionable—take it with a grain of salt."
+        },
+        {
+            "term": "Turn over a new leaf",
+            "meaning": "To start fresh or improve",
+            "hindi_meaning": "नया पन्ना पलटना",
+            "example": "He turned over a new leaf and quit bad habits."
+        },
+        {
+            "term": "The grass is always greener on the other side",
+            "meaning": "Other situations seem better than your own",
+            "hindi_meaning": "दूसरी तरफ की घास हमेशा हरी होती है",
+            "example": "She envied their life, but the grass is always greener on the other side."
+        },
+        {
+            "term": "Take the plunge",
+            "meaning": "To make a bold decision",
+            "hindi_meaning": "छलांग लगाना",
+            "example": "She took the plunge and started her business."
+        },
+        {
+            "term": "Talk is cheap",
+            "meaning": "Words are meaningless without action",
+            "hindi_meaning": "बातें सस्ती हैं",
+            "example": "He promised a lot, but talk is cheap."
+        },
+        {
+            "term": "Two heads are better than one",
+            "meaning": "Collaboration yields better results",
+            "hindi_meaning": "दो सिर एक से बेहतर हैं",
+            "example": "They solved it together—two heads are better than one."
+        },
+        {
+            "term": "Through thick and thin",
+            "meaning": "In good times and bad",
+            "hindi_meaning": "सुख-दुख में",
+            "example": "They stayed friends through thick and thin."
+        },
+        {
+            "term": "Twist someone’s arm",
+            "meaning": "To persuade someone reluctantly",
+            "hindi_meaning": "किसी की बांह मरोड़ना",
+            "example": "I twisted his arm to join the party."
+        },
+        {
+            "term": "The ball is in your court",
+            "meaning": "It’s your turn to act",
+            "hindi_meaning": "गेंद आपके पाले में है",
+            "example": "I’ve done my part—the ball is in your court."
+        },
+        {
+            "term": "Taste of your own medicine",
+            "meaning": "Experiencing the same negative treatment you gave",
+            "hindi_meaning": "अपनी ही दवा का स्वाद",
+            "example": "He was rude and got a taste of his own medicine."
+        },
+        {
+            "term": "Tie the knot",
+            "meaning": "To get married",
+            "hindi_meaning": "गांठ बांधना",
+            "example": "They tied the knot after years of dating."
+        },
+        {
+            "term": "Take a rain check",
+            "meaning": "To postpone an invitation",
+            "hindi_meaning": "बारिश का चेक लेना",
+            "example": "I can’t come now—can I take a rain check?"
+        },
+        {
+            "term": "Turn a blind eye",
+            "meaning": "To ignore something deliberately",
+            "hindi_meaning": "अंधी आँख करना",
+            "example": "She turned a blind eye to his mistakes."
+        },
+        {
+            "term": "Tighten your belt",
+            "meaning": "To spend less money",
+            "hindi_meaning": "अपनी कमर कसना",
+            "example": "We need to tighten our belts to save."
+        },
+        {
+            "term": "The bigger they are, the harder they fall",
+            "meaning": "Powerful people fail more dramatically",
+            "hindi_meaning": "जितने बड़े, उतना जोर से गिरते हैं",
+            "example": "The CEO failed big—the bigger they are, the harder they fall."
+        },
+        {
+            "term": "To each his own",
+            "meaning": "Everyone has their own preferences",
+            "hindi_meaning": "हर एक का अपना",
+            "example": "I don’t like it, but to each his own."
+        },
+        {
+            "term": "Take the wind out of your sails",
+            "meaning": "To reduce someone’s confidence or enthusiasm",
+            "hindi_meaning": "आपकी पाल से हवा निकालना",
+            "example": "His criticism took the wind out of her sails."
+        },
+        {
+            "term": "Test the waters",
+            "meaning": "To try something cautiously",
+            "hindi_meaning": "पानी की जांच करना",
+            "example": "She tested the waters before launching the product."
+        },
+        {
+            "term": "Under the weather",
+            "meaning": "Feeling unwell or low",
+            "hindi_meaning": "मौसम के नीचे",
+            "example": "She’s under the weather and stayed home."
+        },
+        {
+            "term": "Up in the air",
+            "meaning": "Uncertain or undecided",
+            "hindi_meaning": "हवा में",
+            "example": "The plans are still up in the air."
+        },
+        {
+            "term": "Up to your neck",
+            "meaning": "Deeply involved or overwhelmed",
+            "hindi_meaning": "गर्दन तक डूबा",
+            "example": "He’s up to his neck in work."
+        },
+        {
+            "term": "Under your nose",
+            "meaning": "Something obvious but unnoticed",
+            "hindi_meaning": "आपकी नाक के नीचे",
+            "example": "The keys were under your nose the whole time."
+        },
+        {
+            "term": "Up and running",
+            "meaning": "Fully operational",
+            "hindi_meaning": "चालू और दौड़ता हुआ",
+            "example": "The new system is up and running."
+        },
+        {
+            "term": "Under the table",
+            "meaning": "Done secretly, often illegally",
+            "hindi_meaning": "मेज के नीचे",
+            "example": "They made a deal under the table."
+        },
+        {
+            "term": "Up the creek without a paddle",
+            "meaning": "In a difficult situation with no solution",
+            "hindi_meaning": "नदी में बिना चप्पू के",
+            "example": "Without funds, they’re up the creek without a paddle."
+        },
+        {
+            "term": "Under a cloud",
+            "meaning": "Under suspicion or disfavor",
+            "hindi_meaning": "बादल के नीचे",
+            "example": "He’s under a cloud after the scandal."
+        },
+        {
+            "term": "Up in arms",
+            "meaning": "Very angry or upset",
+            "hindi_meaning": "हथियारों में ऊपर",
+            "example": "They were up in arms about the new rules."
+        },
+        {
+            "term": "Under your belt",
+            "meaning": "Something you’ve accomplished or experienced",
+            "hindi_meaning": "आपकी कमर के नीचे",
+            "example": "She has three degrees under her belt."
+        },
+        {
+            "term": "Up to par",
+            "meaning": "Meeting the expected standard",
+            "hindi_meaning": "मानक तक",
+            "example": "Her work is finally up to par."
+        },
+        {
+            "term": "Under the radar",
+            "meaning": "Going unnoticed",
+            "hindi_meaning": "रडार के नीचे",
+            "example": "He worked quietly under the radar."
+        },
+        {
+            "term": "Up to no good",
+            "meaning": "Planning something bad",
+            "hindi_meaning": "कुछ बुरा करने की योजना",
+            "example": "Those kids are up to no good."
+        },
+        {
+            "term": "Under wraps",
+            "meaning": "Kept secret",
+            "hindi_meaning": "रहस्य में रखा",
+            "example": "The project is still under wraps."
+        },
+        {
+            "term": "Up the ante",
+            "meaning": "To increase the stakes or effort",
+            "hindi_meaning": "दांव बढ़ाना",
+            "example": "They upped the ante with a bigger offer."
+        },
+        {
+            "term": "Under pressure",
+            "meaning": "Experiencing stress or demands",
+            "hindi_meaning": "दबाव में",
+            "example": "She’s under pressure to meet the deadline."
+        },
+        {
+            "term": "Variety is the spice of life",
+            "meaning": "Diverse experiences make life more interesting",
+            "hindi_meaning": "विविधता जीवन का मसाला है",
+            "example": "She travels to new places because variety is the spice of life."
+        },
+        {
+            "term": "Vanish into thin air",
+            "meaning": "To disappear completely",
+            "hindi_meaning": "हवा में गायब हो जाना",
+            "example": "The thief vanished into thin air before the police arrived."
+        },
+        {
+            "term": "Vent your spleen",
+            "meaning": "To express anger or frustration",
+            "hindi_meaning": "अपना गुस्सा निकालना",
+            "example": "He vented his spleen about the unfair decision."
+        },
+        {
+            "term": "Vote with your feet",
+            "meaning": "To show disapproval by leaving",
+            "hindi_meaning": "अपने पैरों से मतदान करना",
+            "example": "They voted with their feet by leaving the bad concert."
+        },
+        {
+            "term": "Vying for attention",
+            "meaning": "Competing to be noticed",
+            "hindi_meaning": "ध्यान के लिए होड़ करना",
+            "example": "The performers were vying for attention on stage."
+        },
+        {
+            "term": "Valley of the shadow of death",
+            "meaning": "A dangerous or life-threatening situation",
+            "hindi_meaning": "मृत्यु की छाया की घाटी",
+            "example": "He walked through the valley of the shadow of death during the crisis."
+        },
+        {
+            "term": "Vast as the ocean",
+            "meaning": "Something extremely large or boundless",
+            "hindi_meaning": "समुद्र जितना विशाल",
+            "example": "Her knowledge is vast as the ocean."
+        },
+        {
+            "term": "Voice in the wilderness",
+            "meaning": "An opinion ignored by most",
+            "hindi_meaning": "जंगल में आवाज",
+            "example": "His warnings were a voice in the wilderness."
+        },
+        {
+            "term": "When in Rome, do as the Romans do",
+            "meaning": "Adapt to the customs of the place you’re in",
+            "hindi_meaning": "रोम में हो, तो जैसा रोमन करते हैं वैसा करो",
+            "example": "She dressed formally at the event—when in Rome, do as the Romans do."
+        },
+        {
+            "term": "Walls have ears",
+            "meaning": "Be careful what you say as others may overhear",
+            "hindi_meaning": "दीवारों के भी कान होते हैं",
+            "example": "Don’t gossip here—walls have ears."
+        },
+        {
+            "term": "Waste not, want not",
+            "meaning": "If you use resources wisely, you won’t lack",
+            "hindi_meaning": "बर्बाद मत करो, कमी नहीं होगी",
+            "example": "She saved leftovers—waste not, want not."
+        },
+        {
+            "term": "Water under the bridge",
+            "meaning": "Past events that are no longer important",
+            "hindi_meaning": "पुल के नीचे का पानी",
+            "example": "Their fight is water under the bridge now."
+        },
+        {
+            "term": "Wear your heart on your sleeve",
+            "meaning": "To openly show your emotions",
+            "hindi_meaning": "अपना दिल आस्तीन पर पहनना",
+            "example": "She wears her heart on her sleeve and cries easily."
+        },
+        {
+            "term": "What goes around comes around",
+            "meaning": "Your actions will have consequences",
+            "hindi_meaning": "जो जाता है, वह वापस आता है",
+            "example": "He was kind, and it paid off—what goes around comes around."
+        },
+        {
+            "term": "When the going gets tough, the tough get going",
+            "meaning": "Strong people rise to challenges",
+            "hindi_meaning": "जब हालात मुश्किल होते हैं, मजबूत लोग आगे बढ़ते हैं",
+            "example": "She worked harder when things got bad—when the going gets tough, the tough get going."
+        },
+        {
+            "term": "Where there’s a will, there’s a way",
+            "meaning": "Determination leads to solutions",
+            "hindi_meaning": "जहां चाह, वहां राह",
+            "example": "He found a way to succeed—where there’s a will, there’s a way."
+        },
+        {
+            "term": "Wild goose chase",
+            "meaning": "A pointless or hopeless pursuit",
+            "hindi_meaning": "जंगली हंस का पीछा",
+            "example": "Searching for that rumor was a wild goose chase."
+        },
+        {
+            "term": "Wolf in sheep’s clothing",
+            "meaning": "Someone dangerous who appears harmless",
+            "hindi_meaning": "भेड़ की खाल में भेड़िया",
+            "example": "He seemed nice but was a wolf in sheep’s clothing."
+        },
+        {
+            "term": "Walk on eggshells",
+            "meaning": "To be very careful around someone",
+            "hindi_meaning": "अंडों के छिलकों पर चलना",
+            "example": "She walks on eggshells around her strict boss."
+        },
+        {
+            "term": "Worth its weight in gold",
+            "meaning": "Extremely valuable",
+            "hindi_meaning": "सोने में अपने वजन के लायक",
+            "example": "Her advice is worth its weight in gold."
+        },
+        {
+            "term": "Work like a dog",
+            "meaning": "To work very hard",
+            "hindi_meaning": "कुत्ते की तरह काम करना",
+            "example": "He worked like a dog to finish the project."
+        },
+        {
+            "term": "Win hands down",
+            "meaning": "To win easily",
+            "hindi_meaning": "हाथ नीचे करके जीतना",
+            "example": "She won the debate hands down."
+        },
+        {
+            "term": "Woe betide",
+            "meaning": "A warning of trouble for someone",
+            "hindi_meaning": "हाय बेटाइड",
+            "example": "Woe betide anyone who misses the deadline."
+        },
+        {
+            "term": "Walk the plank",
+            "meaning": "To face a severe consequence",
+            "hindi_meaning": "तख्ते पर चलना",
+            "example": "He was forced to walk the plank after betraying the team."
+        },
+        {
+            "term": "Watch your back",
+            "meaning": "Be cautious of danger or betrayal",
+            "hindi_meaning": "अपनी पीठ देखो",
+            "example": "In that deal, you’d better watch your back."
+        },
+        {
+            "term": "Weather the storm",
+            "meaning": "To endure a difficult situation",
+            "hindi_meaning": "तूफान का सामना करना",
+            "example": "They weathered the storm during the financial crisis."
+        },
+        {
+            "term": "Wet behind the ears",
+            "meaning": "Inexperienced or naive",
+            "hindi_meaning": "कानों के पीछे गीला",
+            "example": "He’s still wet behind the ears in this job."
+        },
+        {
+            "term": "Wheels within wheels",
+            "meaning": "Complex motives or influences",
+            "hindi_meaning": "पहियों के भीतर पहिए",
+            "example": "The deal had wheels within wheels we didn’t see."
+        },
+        {
+            "term": "X marks the spot",
+            "meaning": "The exact location of something important",
+            "hindi_meaning": "एक्स स्थान को चिह्नित करता है",
+            "example": "The map shows X marks the spot for the treasure."
+        },
+        {
+            "term": "X-factor",
+            "meaning": "A unique or special quality",
+            "hindi_meaning": "एक्स-कारक",
+            "example": "Her charisma is the X-factor in her success."
+        },
+        {
+            "term": "You can’t judge a book by its cover",
+            "meaning": "Don’t judge based on appearance alone",
+            "hindi_meaning": "किताब को उसके आवरण से नहीं आंक सकते",
+            "example": "He looked rough, but you can’t judge a book by its cover."
+        },
+        {
+            "term": "You reap what you sow",
+            "meaning": "Your actions determine your consequences",
+            "hindi_meaning": "जैसा बोओगे, वैसा काटोगे",
+            "example": "She worked hard and succeeded—you reap what you sow."
+        },
+        {
+            "term": "Your guess is as good as mine",
+            "meaning": "I don’t know any more than you do",
+            "hindi_meaning": "तुम्हारा अनुमान मेरे जितना अच्छा है",
+            "example": "What’s next? Your guess is as good as mine."
+        },
+        {
+            "term": "You can’t have your cake and eat it too",
+            "meaning": "You can’t have two desirable but mutually exclusive things",
+            "hindi_meaning": "केक रखना और खाना भी नहीं हो सकता",
+            "example": "You can’t work and travel all the time—you can’t have your cake and eat it too."
+        },
+        {
+            "term": "You’re barking up the wrong tree",
+            "meaning": "You’re mistaken about something or someone",
+            "hindi_meaning": "तुम गलत पेड़ पर भौंक रहे हो",
+            "example": "If you think I did it, you’re barking up the wrong tree."
+        },
+        {
+            "term": "You can lead a horse to water, but you can’t make it drink",
+            "meaning": "You can offer help, but can’t force someone to accept it",
+            "hindi_meaning": "घोड़े को पानी तक ले जा सकते हो, लेकिन उसे पीने को मजबूर नहीं कर सकते",
+            "example": "I gave him advice, but you can lead a horse to water, but you can’t make it drink."
+        },
+        {
+            "term": "You don’t know what you’ve got till it’s gone",
+            "meaning": "You only appreciate something after losing it",
+            "hindi_meaning": "जब तक कुछ चला नहीं जाता, उसकी कीमत नहीं पता",
+            "example": "He missed her after the breakup—you don’t know what you’ve got till it’s gone."
+        },
+        {
+            "term": "You scratch my back, I’ll scratch yours",
+            "meaning": "Mutual help or favors",
+            "hindi_meaning": "तुम मेरी पीठ खुजाओ, मैं तुम्हारी खुजाऊंगा",
+            "example": "They traded favors—you scratch my back, I’ll scratch yours."
+        },
+        {
+            "term": "Young at heart",
+            "meaning": "Having a youthful spirit despite age",
+            "hindi_meaning": "दिल से जवान",
+            "example": "She’s 70 but young at heart."
+        },
+        {
+            "term": "You can’t make an omelette without breaking eggs",
+            "meaning": "Some sacrifices are necessary for success",
+            "hindi_meaning": "अंडे तोड़े बिना आमलेट नहीं बन सकता",
+            "example": "The project caused stress, but you can’t make an omelette without breaking eggs."
+        },
+        {
+            "term": "Zero in on",
+            "meaning": "To focus closely on something",
+            "hindi_meaning": "किसी चीज पर ध्यान केंद्रित करना",
+            "example": "She zeroed in on the key issue during the meeting."
+        },
+        {
+            "term": "Zero tolerance",
+            "meaning": "No acceptance of bad behavior",
+            "hindi_meaning": "शून्य सहनशीलता",
+            "example": "The school has a zero tolerance policy for bullying."
+        },
+        {
+            "term": "Zig when others zag",
+            "meaning": "To do the opposite of what others are doing",
+            "hindi_meaning": "जब दूसरे ज़ैग करें तो ज़िग करना",
+            "example": "He zigged when others zagged and created a unique product."
+        }
+    ]

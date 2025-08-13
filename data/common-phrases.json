@@ -1,0 +1,84 @@
+[
+  {
+    "term": "Universal",
+    "details": {
+      "description": {
+        "english": "Relating to or done by all people or things in the world or in a particular group",
+        "hindi": "सार्वभौमिक, जो सभी लोगों या वस्तुओं पर लागू हो"
+      },
+      "meaning": {
+        "primary": {
+          "english": "Applicable everywhere",
+          "hindi": "हर जगह लागू"
+        },
+        "secondary": {
+          "english": "Involving or affecting all members of a group",
+          "hindi": "किसी समूह के सभी सदस्यों को प्रभावित करने वाला"
+        }
+      },
+      "linguistic_info": {
+        "part_of_speech": "Adjective",
+        "word_origin": "Late Middle English: from Old French universel, from Latin universalis, from universus",
+        "syllables": 3,
+        "pronunciation": "/ˌjuː.nɪˈvɜː.səl/"
+      },
+      "relations": {
+        "synonyms": ["Global", "Worldwide", "Omnipresent", "General"],
+        "antonyms": ["Limited", "Local", "Particular", "Specific"],
+        "related_terms": ["Universality", "Universalize", "Universe"]
+      },
+      "usage": {
+        "formality": "Neutral",
+        "register": ["Academic", "Journalistic", "Formal Writing"],
+        "domains": ["Philosophy", "Human Rights", "Science", "Mathematics"]
+      },
+      "examples": [
+        {
+          "sentence": "Human rights are universal.",
+          "hindi_translation": "मानवाधिकार सार्वभौमिक हैं।",
+          "context": "Human rights discussion",
+          "grammar_note": "Predicate adjective"
+        },
+        {
+          "sentence": "The smartphone has achieved near universal adoption.",
+          "hindi_translation": "स्मार्टफोन ने लगभग सर्वव्यापी स्वीकृति प्राप्त कर ली है।",
+          "context": "Technology adoption",
+          "grammar_note": "Attributive adjective"
+        }
+      ],
+      "usage_notes": [
+        {
+          "english": "Used in philosophical and political contexts for principles applying to all humanity",
+          "hindi": "दार्शनिक और राजनीतिक संदर्भों में सभी मानवता पर लागू सिद्धांतों के लिए उपयोग किया जाता है"
+        },
+        {
+          "english": "Used literally (e.g., universal laws of physics) or figuratively (e.g., universal appeal)",
+          "hindi": "शाब्दिक (जैसे, भौतिकी के सार्वभौमिक नियम) या आलंकारिक (जैसे, सार्वभौमिक आकर्षण) रूप में उपयोग किया जाता है"
+        }
+      ],
+      "common_phrases": [
+        {
+          "phrase": "Universal truth",
+          "hindi": "सार्वभौमिक सत्य",
+          "meaning": "A fact that is true in all circumstances"
+        },
+        {
+          "phrase": "Universal healthcare",
+          "hindi": "सार्वभौमिक स्वास्थ्य सेवा",
+          "meaning": "Health coverage for all citizens"
+        },
+        {
+          "phrase": "Universal language",
+          "hindi": "सार्वभौमिक भाषा",
+          "meaning": "A language understood or used by people worldwide"
+        }
+      ],
+      "frequency": {
+        "written_english": "High",
+        "spoken_english": "Medium",
+        "CEFR_level": "B2",
+        "CEFR_justification": "Common in academic and formal contexts, suitable for upper-intermediate learners"
+      }
+    }
+  }
+]
