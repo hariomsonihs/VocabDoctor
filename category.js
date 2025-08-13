@@ -1,37 +1,32 @@
-// Get parameters from URL
 const urlParams = new URLSearchParams(window.location.search);
 const category = urlParams.get('category');
 const isSearch = urlParams.get('search');
 const searchQuery = isSearch && isSearch !== 'true' ? decodeURIComponent(isSearch) : null;
 
-// DOM Elements
 const titleText = document.getElementById('title-text');
 const contentBody = document.getElementById('content-body');
 const backBtn = document.getElementById('back-btn');
 const searchInput = document.getElementById('search-input');
 const searchBtn = document.getElementById('search-btn');
 
-// Category titles mapping
 const categoryTitles = {
     'phrasal-verbs': 'Phrasal Verbs',
     'idioms': 'English Idioms',
     'proverbs': 'English Proverbs',
     'daily-sentences': 'Daily Sentences',
     'verbs': 'English Verbs',
+    'synonyms': 'Synonyms',
+    'antonyms': 'Antonyms',
+    'common-phrases': 'Common Phrases',
 };
 
-// Current displayed data
 let currentData = [];
-let currentDisplayMode = 'list'; // 'list' or 'detail'
+let currentDisplayMode = 'list';
 let currentDetailItem = null;
 
-// Detect if running in Android WebView
 const isAndroidWebView = window.location.protocol === 'file:';
+const basePath = isAndroidWebView ? 'file:///android_asset/data/' : 'data/';
 
-// Determine base path based on environment
-const basePath = isAndroidWebView ? 'file:///android_asset/data/' : 'data/'; // Adjust 'data/' for your website's path
-
-// Improved error handling function
 function showError(message) {
     contentBody.innerHTML = `
         <div class="error-message">
@@ -42,17 +37,15 @@ function showError(message) {
     `;
 }
 
-// Handle messages from main page
 window.addEventListener('message', function(event) {
     if (event.data.action === 'displaySearchResults') {
         displaySearchResults(event.data.query, event.data.results);
     }
 });
 
-// Load and display data based on URL parameters
 window.addEventListener('DOMContentLoaded', function() {
     console.log(`Loading page with params: category=${category}, search=${isSearch}, query=${searchQuery}`);
-    
+
     if (searchQuery) {
         titleText.textContent = 'Search Results';
         contentBody.innerHTML = '<p class="loading"><i class="fas fa-spinner fa-spin"></i> Loading search results...</p>';
@@ -72,17 +65,16 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Enhanced load and display category data
 function loadAndDisplayCategory() {
     try {
         titleText.textContent = categoryTitles[category] || category;
         contentBody.innerHTML = '<p class="loading"><i class="fas fa-spinner fa-spin"></i> Loading data...</p>';
-        
+
         const xhr = new XMLHttpRequest();
         xhr.open('GET', `${basePath}${category}.json`, true);
-        xhr.overrideMimeType('application/json; charset=utf-8'); // Ensure UTF-8 encoding
+        xhr.overrideMimeType('application/json; charset=utf-8');
         xhr.onload = function() {
-            if (xhr.status === 0 || xhr.status === 200) {  // status 0 for file://, 200 for http
+            if (xhr.status === 0 || xhr.status === 200) {
                 try {
                     currentData = JSON.parse(xhr.responseText);
                     if (!Array.isArray(currentData)) {
@@ -103,30 +95,29 @@ function loadAndDisplayCategory() {
             console.error(`Error loading ${category}: Network error`);
         };
         xhr.send();
-        
+
     } catch (error) {
         console.error(`Error loading ${category}:`, error);
         showError(`Failed to load ${categoryTitles[category]}. ${error.message}`);
     }
 }
 
-// Display all items in list view
 function displayList(data) {
     currentDisplayMode = 'list';
-    
+
     if (!data || data.length === 0) {
         contentBody.innerHTML = '<p class="no-results">No items found in this category</p>';
         return;
     }
-    
+
     let html = '<div class="word-list">';
-    
+
     data.forEach((item, index) => {
         if (!item.term || !item.meaning) {
             console.warn('Invalid item format at index', index, item);
             return;
         }
-        
+
         html += `
             <div class="word-item" data-id="${index}">
                 <h3><i class="fas fa-angle-right"></i> ${sanitizeText(item.term)}</h3>
@@ -136,11 +127,10 @@ function displayList(data) {
             </div>
         `;
     });
-    
+
     html += '</div>';
     contentBody.innerHTML = html;
-    
-    // Add click event to each item
+
     document.querySelectorAll('.word-item').forEach(item => {
         item.addEventListener('click', function() {
             const itemId = parseInt(this.getAttribute('data-id'));
@@ -151,16 +141,15 @@ function displayList(data) {
     });
 }
 
-// Show detailed view for a single item
 function showDetailView(item) {
     if (!item) {
         console.error('Invalid item for detail view');
         return;
     }
-    
+
     currentDisplayMode = 'detail';
     currentDetailItem = item;
-    
+
     let html = `
         <div class="detail-view">
             <div class="detail-header">
@@ -172,34 +161,67 @@ function showDetailView(item) {
                     <h3>Meaning</h3>
                     ${formatTextAsList(item.meaning || 'No meaning available')}
                 </div>
-                
+
                 ${item.hindi_meaning ? `
                 <div class="detail-section">
                     <h3>Hindi Meaning</h3>
                     ${formatTextAsList(item.hindi_meaning)}
                 </div>
                 ` : ''}
-                
+
+                ${item.verb_forms ? `
+                <div class="detail-section">
+                    <h3>Verb Forms</h3>
+                    <ul>
+                        <li><strong>Base (V1):</strong> ${sanitizeText(item.verb_forms.base || 'N/A')}</li>
+                        <li><strong>Past (V2):</strong> ${sanitizeText(item.verb_forms.past || 'N/A')}</li>
+                        <li><strong>Past Participle (V3):</strong> ${sanitizeText(item.verb_forms.past_participle || 'N/A')}</li>
+                        <li><strong>Present Participle (V4):</strong> ${sanitizeText(item.verb_forms.present_participle || 'N/A')}</li>
+                        <li><strong>3rd Person Singular (V5):</strong> ${sanitizeText(item.verb_forms['3rd_person'] || 'N/A')}</li>
+                    </ul>
+                </div>
+                ` : ''}
+
                 ${item.synonyms ? `
                 <div class="detail-section">
                     <h3>Synonyms</h3>
                     ${formatTextAsList(item.synonyms)}
                 </div>
                 ` : ''}
-                
+                ${item.part_of_speech ? `
+                <div class="detail-section">
+                      <h3>Part Of Speech</h3>
+                       ${formatTextAsList(item.part_of_speech)}
+                </div>
+                ` : ''}
+
+                ${item.transitivity ? `
+                <div class="detail-section">
+                    <h3>Transitivity</h3>
+                    ${formatTextAsList(item.transitivity)}
+                </div>
+                ` : ''}
+                ${item.antonyms ? `
+                 <div class="detail-section">
+                      <h3>Antonyms</h3>
+                       ${formatTextAsList(item.antonyms)}
+                 </div>
+                 ` : ''}
+
+                ${item.formality ? `
+                <div class="detail-section">
+                    <h3>Formality</h3>
+                    ${formatTextAsList(item.formality)}
+                </div>
+                ` : ''}
+
                 ${item.usage_note ? `
                 <div class="detail-section">
                     <h3>Usage Note</h3>
                     ${formatTextAsList(item.usage_note)}
                 </div>
                 ` : ''}
-                ${item.verbs_forms ? `
-                    <div class="detail-section">
-                        <h3>Verbs Forms</h3>
-                        ${formatTextAsList(item.verbs_forms)}
-                    </div>
-                    ` : ''}
-                
+
                 ${item.example ? `
                 <div class="detail-section">
                     <h3>Example</h3>
@@ -209,10 +231,9 @@ function showDetailView(item) {
             </div>
         </div>
     `;
-    
+
     contentBody.innerHTML = html;
-    
-    // Add back to list event
+
     const backButton = document.getElementById('back-to-list');
     if (backButton) {
         backButton.addEventListener('click', function(e) {
@@ -222,34 +243,33 @@ function showDetailView(item) {
     }
 }
 
-// Display search results
 function displaySearchResults(query, results) {
     if (!query || !results) {
         console.error('Invalid search results');
         return;
     }
-    
+
     titleText.textContent = `Search Results for "${sanitizeText(query)}"`;
     currentData = results;
-    
+
     if (results.length === 0) {
         contentBody.innerHTML = `<p class="no-results">No results found for "${sanitizeText(query)}"</p>`;
         return;
     }
-    
+
     let html = `<div class="search-info">
         <p>Found ${results.length} results across all categories</p>
     </div><div class="word-list">`;
-    
+
     results.forEach((item, index) => {
         if (!item.term || !item.meaning) {
             console.warn('Invalid search result item at index', index, item);
             return;
         }
-        
+
         html += `
             <div class="word-item" data-id="${index}">
-                <h3><i class="fas fa-angle-right"></i> ${sanitizeText(item.term)} 
+                <h3><i class="fas fa-angle-right"></i> ${sanitizeText(item.term)}
                     <span class="category-tag">${sanitizeText((item.category || '').replace('-', ' '))}</span>
                 </h3>
                 <p><strong>Meaning:</strong> ${sanitizeText(item.meaning)}</p>
@@ -258,11 +278,10 @@ function displaySearchResults(query, results) {
             </div>
         `;
     });
-    
+
     html += '</div>';
     contentBody.innerHTML = html;
-    
-    // Add click event to each item
+
     document.querySelectorAll('.word-item').forEach(item => {
         item.addEventListener('click', function() {
             const itemId = parseInt(this.getAttribute('data-id'));
@@ -273,7 +292,6 @@ function displaySearchResults(query, results) {
     });
 }
 
-// Set up search for current category
 function setupCategorySearch() {
     searchBtn.addEventListener('click', () => {
         const query = searchInput.value.trim();
@@ -281,7 +299,7 @@ function setupCategorySearch() {
             searchInCategory(query);
         }
     });
-    
+
     searchInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
             const query = searchInput.value.trim();
@@ -292,21 +310,20 @@ function setupCategorySearch() {
     });
 }
 
-// Enhanced search within current category
 function searchInCategory(query = '') {
     if (!query && !searchQuery) {
         loadAndDisplayCategory();
         return;
     }
-    
+
     const searchTerm = query || searchQuery;
     console.log(`Searching for: "${searchTerm}" in ${category}`);
-    
+
     contentBody.innerHTML = '<p class="loading"><i class="fas fa-spinner fa-spin"></i> Searching...</p>';
-    
+
     const xhr = new XMLHttpRequest();
     xhr.open('GET', `${basePath}${category}.json`, true);
-    xhr.overrideMimeType('application/json; charset=utf-8'); // Ensure UTF-8 encoding
+    xhr.overrideMimeType('application/json; charset=utf-8');
     xhr.onload = function() {
         if (xhr.status === 0 || xhr.status === 200) {
             try {
@@ -314,21 +331,33 @@ function searchInCategory(query = '') {
                 if (!Array.isArray(data)) {
                     throw new Error('Invalid data format: expected array');
                 }
-                
+
                 const results = data.filter(item => {
                     try {
                         return (
-                            (item.term && item.term.toLowerCase().includes(searchTerm.toLowerCase())) || 
+                            (item.term && item.term.toLowerCase().includes(searchTerm.toLowerCase())) ||
                             (item.meaning && item.meaning.toLowerCase().includes(searchTerm.toLowerCase())) ||
                             (item.hindi_meaning && item.hindi_meaning.toLowerCase().includes(searchTerm.toLowerCase())) ||
-                            (item.synonyms && item.synonyms.toLowerCase().includes(searchTerm.toLowerCase()))
+                            (item.synonyms && item.synonyms.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                            (item.part_of_speech && item.part_of_speech.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                            (item.antonyms && item.antonyms.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                            (item.transitivity && item.transitivity.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                            (item.formality && item.formality.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                            (item.usage_note && item.usage_note.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                            (item.verb_forms && (
+                                item.verb_forms.base.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                item.verb_forms.past.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                item.verb_forms.past_participle.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                item.verb_forms.present_participle.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                                item.verb_forms['3rd_person'].toLowerCase().includes(searchTerm.toLowerCase())
+                            ))
                         );
                     } catch (e) {
                         console.warn('Error filtering item:', item, e);
                         return false;
                     }
                 });
-                
+
                 if (results.length === 0) {
                     contentBody.innerHTML = `<p class="no-results">No results found for "${sanitizeText(searchTerm)}" in this category</p>`;
                 } else {
@@ -348,7 +377,6 @@ function searchInCategory(query = '') {
     xhr.send();
 }
 
-// Back button functionality
 backBtn.addEventListener('click', () => {
     if (currentDisplayMode === 'detail') {
         displayList(currentData);
@@ -357,25 +385,23 @@ backBtn.addEventListener('click', () => {
     }
 });
 
-// Utility function to sanitize text for consistent display
 function sanitizeText(text) {
     if (!text) return '';
     return text
-        .replace(/\u2022/g, '- ') // Replace Unicode bullet with dash
-        .replace(/â€¢/g, '- ')    // Fix garbled bullet encoding
-        .replace(/[^\x00-\x7F]+/g, match => { // Handle non-ASCII characters
+        .replace(/\u2022/g, '- ')
+        .replace(/â€¢/g, '- ')
+        .replace(/[^\x00-\x7F]+/g, match => {
             return Array.from(match).map(char => `&#${char.charCodeAt(0)};`).join('');
         })
-        .replace(/(\-\s*)+/g, '- ') // Ensure single dash with space
+        .replace(/(\-\s*)+/g, '- ')
         .trim();
 }
 
-// Function to format text as an HTML list for detail view
 function formatTextAsList(text, className = '') {
     if (!text) return '<p>No content available</p>';
     const items = text.split(/\n|\u2022|â€¢/).map(item => item.trim()).filter(item => item);
     if (items.length <= 1) return `<p class="${className}">${sanitizeText(text)}</p>`;
-    
+
     let html = `<ul class="${className}">`;
     items.forEach(item => {
         if (item) html += `<li>${sanitizeText(item)}</li>`;
